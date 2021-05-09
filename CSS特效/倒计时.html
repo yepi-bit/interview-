@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<time></time>
+<script>
+    function isDate() {
+        var time = document.getElementsByTagName("time")[0];
+        var date = new Date();
+        var year = date.getFullYear();//获取现在的时间
+
+        var newDate = new Date();//明年一月一日0点
+        newDate.setFullYear(year + 1) //明年
+        newDate.setMonth(0, 1); //一月一日
+        //dateObject.setMonth(month,day)
+        newDate.setHours(0, 0, 0); //0点
+
+        var Time = newDate.getTime() - date.getTime(); //明年元旦0点的时间戳-现在的时间戳
+        var iSecond = parseInt(Time / 1000); //将时间戳转化为秒（parseInt转换为整数）
+        var newDay = parseInt(iSecond / 24 / 60 / 60);   //计算有多少天
+        var modeDay = iSecond % (24 * 60 * 60); //不足一天的
+        var newHour = parseInt(modeDay / 60 / 60);   //计算有多少小时
+        var modeHour = modeDay % (60 * 60);  //不足一小时的
+        var newMinute = parseInt(modeHour / 60);  //计算有多少分钟
+        var modeMinute = modeHour % 60;   //不足一分钟的
+        var newSecond = parseInt(modeMinute);   //计算有多少秒
+
+        time.innerHTML = "目前是"+year + "年,距离"+newDate.getFullYear()+"年还有    " + newDay + "天" + newHour + "小时" + newMinute + "分钟" + newSecond + "秒";
+    }
+    isDate();//第一次运行
+    setInterval(isDate, 1000)//设置让其一秒运行一次
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr1 = [3,4,1,2,5,7];
+    // 遍历数组，次数就是arr.length - 1
+    for (var i = 0; i < arr1.length - 1; i++) {
+        // 如果前一个数 大于 后一个数 就交换两数位置
+        if (arr1[i] > arr1[i + 1]) {
+            var temp = arr1[i];
+            arr1[i] = arr1[i + 1];
+            arr1[i + 1] = temp;
+        }
+    }
+    console.log(arr1)// [3, 1, 2, 4, 5, 7]
+
+
+    var arr = [3,4,1,2,5,7];
+    function bubbleSort (arr) {
+        for (var j = 0; j < arr.length - 1; j++) {
+            // 这里要根据外层for循环的 j，逐渐减少内层 for循环的次数
+            for (var i = 0; i < arr.length - 1 - j; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    var temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+    bubbleSort(arr);
+    console.log(arr)//[1, 2, 3, 4, 5, 7]
+
+</script>
+</body>
+</html>

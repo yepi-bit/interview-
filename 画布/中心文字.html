@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<script>
+    var canvas = document.createElement('canvas');
+    document.body.append(canvas);
+    //圆形
+    var content = canvas.getContext('2d')
+
+    content.fillStyle = 'deepskyblue';
+    content.arc(150,75,60,0,2*Math.PI)
+    content.fill();
+    //文字
+    content.fillStyle = 'white';
+    content.font = '14px sans-serif';
+    content.textAlign = 'center';
+    content.textBaseline = 'middle'
+    content.fillText('哈哈哈',150,75);
+</script>
+</body>
+</html>

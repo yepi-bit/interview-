@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const test = str=>{
+            const temp = str.split(/\-|\_/);
+            if(temp && temp.length){
+                for (let i = 1; i < temp.length; i++) {
+                    temp[i] = temp[i][0].toLowerCase() + temp[i].slice(1);
+                }
+            }
+            return temp.join('')
+    }
+    test()
+</script>
+</body>
+</html>

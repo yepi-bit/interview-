@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var str = 'AaaBbCccDdddE';
+    str2 = Array.from(new Set(str)).join('')
+    console.log(str2);
+    str3 = [...new Set(str.split(''))]
+    console.log(str3);
+    str4 = str2.split('').reverse().join('')
+    console.log(str4);
+    //length
+    str5 = str4.match(/[A-Z]/g).join('')
+    console.log(str5);
+    //随机16
+    str6 = String(Math.random()).split('.')[1].slice(0.16);
+    console.log(str6);
+</script>
+</body>
+</html>

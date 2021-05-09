@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+</head>
+    <script>
+        function setup() {
+            let counter = 0;
+            console.log("Click count: " + counter);
+            return function () {
+                counter += 1;
+                console.log("Click count: " + counter);
+            }
+        }
+        // var add = setup();
+        window.onload = function () {
+            document.getElementById("b1").onclick = setup();
+        }
+    </script>
+<body>
+    <button id="b1" type="button">GOO</button>
+</body>
+</html>

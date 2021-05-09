@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<script>
+    var content;
+    var x = 150;
+    var y = 150;
+    var counter = 0;
+    function paint() {
+        content.beginPath();
+        content.fillStyle = '#ff0000'
+        content.arc(x, y,15,0,Math.PI*2,false);
+        content.closePath();
+        content.fill();
+    }
+    function animate() {
+        content.clearRect(0,0,400,300);
+        counter++;
+        x+=20 * Math.sin(counter);
+        y+=20 * Math.cos(counter);
+        paint()
+    }
+    window.onload = function () {
+        content = canvas1.getContext('2d');
+        setInterval(animate, 50);
+    }
+</script>
+<body>
+    <canvas id="canvas1" width="400" height="300"></canvas>
+</body>
+</html>

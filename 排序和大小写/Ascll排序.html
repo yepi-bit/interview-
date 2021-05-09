@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //方法1
+    // function f1(str) {
+    //     let arr = [];
+    //     for(var i=0; i<str.length; i++){
+    //         arr.push(str[i].charCodeAt());
+    //     }
+    //     arr.sort(function (a,b) {
+    //         return b - a;
+    //     });
+    //     console.log(arr)
+    // }
+    // f1("hello world")
+
+    //方法2
+    const str = 'ABb';
+    const arr = str.split('').map(letter =>{
+        return letter.charCodeAt();
+    }).sort(function () {
+        return arguments[1] - arguments[0];
+    })
+    console.log(arr);
+</script>
+</body>
+</html>

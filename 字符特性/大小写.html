@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f1(str) {
+        return str.replace(/-(.)/g,function ($0,$1) {
+            return $1.toUpperCase()
+        })
+    }
+    console.log(f1("dasd-dad-dadaaaaaaa"));
+
+    //大小写
+    let str = 'ABCDefgh'
+    function f2(str) {
+        for (var index in str) {
+            var num = str[index]
+            if (num.charCodeAt(0) > 97 && num.charCodeAt(0) < 122) {
+                console.log(num.toUpperCase());
+
+            } else {
+                console.log(num.toLowerCase());
+            }
+        }
+    }
+    f2(str)
+</script>
+</body>
+</html>

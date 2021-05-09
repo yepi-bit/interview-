@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        function F(age) {
+             this.age = age;
+        }
+            let f1 = new F(18);  // 18岁，别来无恙-->
+            console.log(f1);
+            console.log(f1.__proto__ );//{constructor: F}
+            console.log(F.prototype); // {constructor: F}
+
+            console.log(f1.__proto__.constructor);//ƒ F(age) {this.age = age;}
+            console.log(F.prototype.constructor);//ƒ F(age) {this.age = age;}
+
+            f1.__proto__ === F.prototype
+    //新对象的__proto__属性指向构造函数的ptototype属性。
+    //构造函数的prototype对象中的constructor属性是指向自身函数的
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function shallowCopy(obj) {
+        if(typeof obj !== 'object' || obj == null) {
+            return obj
+        }
+        let retult
+        if(obj instanceof Array){
+            retult = []
+        }else {
+            retult ={}
+        }
+        for (let key in obj){
+            if (obj.hasOwnProperty(key)){
+                retult[key] = obj[key]
+            }
+        }
+        return  retult
+    }
+
+    shallowCopy()
+</script>
+</body>
+</html>
