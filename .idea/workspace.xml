@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f29d70a-8fc3-4ca8-8f51-e09c219734ab" name="Default Changelist" comment="" />
+    <list default="true" id="6f29d70a-8fc3-4ca8-8f51-e09c219734ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Promise/promise三种状态.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Promise/异步进阶event loop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Promise/手写Promise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Promise/结合场景.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/同步和异步/同步.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/同步和异步/异步.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深拷贝和浅拷贝/深拷贝.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/节流和防抖/节流.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS特效/可拖拽.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS特效/可拖拽+加了节流.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +27,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qbkAC06qvL72ApIuwkwY3SXL4k" />
   <component name="ProjectViewState">
@@ -36,21 +51,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStorm-2019.3.3\interview\Promise" />
       <recent name="E:\WebStorm-2019.3.3\practice\宏任务和微任务" />
       <recent name="E:\WebStorm-2019.3.3\practice\排序和大小写" />
       <recent name="E:\WebStorm-2019.3.3\practice\CSS特效" />
       <recent name="E:\WebStorm-2019.3.3\practice\Get和Post" />
-      <recent name="E:\WebStorm-2019.3.3\practice\CSS位置" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.可拖拽.html">
-    <configuration name="BFC.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/BFC.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.节流.html">
     <configuration name="CSS.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS特效/CSS.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="可拖拽.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS特效/可拖拽.html" useBuiltInWebServerPort="true">
+    <configuration name="手写Promise.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/Promise/手写Promise.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="结合场景.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/Promise/结合场景.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="节流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/节流.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/两栏布局.html" useBuiltInWebServerPort="true">
@@ -101,16 +119,19 @@
     <configuration name="倒计时.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/倒计时.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="toUpperCase.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/排序和大小写/toUpperCase.html" useBuiltInWebServerPort="true">
+    <configuration name="异步进阶event loop.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/Promise/异步进阶event loop.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="promise三种状态.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/Promise/promise三种状态.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.可拖拽.html" />
-        <item itemvalue="JavaScript Debug.toUpperCase.html" />
-        <item itemvalue="JavaScript Debug.导航弹性布局.html" />
-        <item itemvalue="JavaScript Debug.两栏布局.html" />
-        <item itemvalue="JavaScript Debug.BFC.html" />
+        <item itemvalue="JavaScript Debug.节流.html" />
+        <item itemvalue="JavaScript Debug.promise三种状态.html" />
+        <item itemvalue="JavaScript Debug.结合场景.html" />
+        <item itemvalue="JavaScript Debug.异步进阶event loop.html" />
+        <item itemvalue="JavaScript Debug.手写Promise.html" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +170,8 @@
       <workItem from="1619364697263" duration="6000" />
       <workItem from="1620383603123" duration="2000" />
       <workItem from="1620564232351" duration="5029000" />
+      <workItem from="1620572630280" duration="5000" />
+      <workItem from="1620572640416" duration="4063000" />
     </task>
     <servers />
   </component>
