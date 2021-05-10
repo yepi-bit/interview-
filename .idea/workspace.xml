@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f29d70a-8fc3-4ca8-8f51-e09c219734ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promise/promise三种状态.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promise/异步进阶event loop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promise/手写Promise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promise/结合场景.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/同步和异步/同步.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/同步和异步/异步.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/深拷贝和浅拷贝/深拷贝.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/节流和防抖/节流.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/call.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片懒加载.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/排序和大小写/快速排序.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS特效/可拖拽.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS特效/可拖拽+加了节流.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/节流和防抖/节流.html" beforeDir="false" afterPath="$PROJECT_DIR$/节流和防抖/节流.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,38 +54,20 @@
       <recent name="E:\WebStorm-2019.3.3\practice\Get和Post" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.节流.html">
+  <component name="RunManager" selected="JavaScript Debug.快速排序.html">
     <configuration name="CSS.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS特效/CSS.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="手写Promise.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/Promise/手写Promise.html" useBuiltInWebServerPort="true">
+    <configuration name="快速排序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/排序和大小写/快速排序.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="结合场景.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/Promise/结合场景.html" useBuiltInWebServerPort="true">
+    <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/防抖.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="节流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/节流.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/两栏布局.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="导航弹性布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/导航弹性布局.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/防抖.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="倒计时.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/倒计时.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="排序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/排序.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/去重.html" useBuiltInWebServerPort="true">
+    <configuration name="排序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/排序和大小写/排序.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="数组去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组去重.html" useBuiltInWebServerPort="true">
@@ -119,19 +97,40 @@
     <configuration name="倒计时.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/倒计时.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="异步进阶event loop.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/Promise/异步进阶event loop.html" useBuiltInWebServerPort="true">
+    <configuration name="节流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/节流.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="promise三种状态.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/Promise/promise三种状态.html" useBuiltInWebServerPort="true">
+    <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/两栏布局.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="导航弹性布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/导航弹性布局.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/防抖.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="倒计时.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/倒计时.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="排序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/排序.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/去重.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="图片懒加载.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/图片懒加载.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.快速排序.html" />
+        <item itemvalue="JavaScript Debug.排序.html" />
         <item itemvalue="JavaScript Debug.节流.html" />
-        <item itemvalue="JavaScript Debug.promise三种状态.html" />
-        <item itemvalue="JavaScript Debug.结合场景.html" />
-        <item itemvalue="JavaScript Debug.异步进阶event loop.html" />
-        <item itemvalue="JavaScript Debug.手写Promise.html" />
+        <item itemvalue="JavaScript Debug.防抖.html" />
+        <item itemvalue="Node.js.图片懒加载.js" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +170,8 @@
       <workItem from="1620383603123" duration="2000" />
       <workItem from="1620564232351" duration="5029000" />
       <workItem from="1620572630280" duration="5000" />
-      <workItem from="1620572640416" duration="4063000" />
+      <workItem from="1620572640416" duration="4489000" />
+      <workItem from="1620620872989" duration="4578000" />
     </task>
     <servers />
   </component>
@@ -183,22 +183,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620568527835" />
-    <state width="1894" height="175" key="GridCell.Tab.0.bottom" timestamp="1620569536413">
+    <state width="1894" height="175" key="GridCell.Tab.0.bottom" timestamp="1620625453885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620569536413" />
-    <state width="1894" height="175" key="GridCell.Tab.0.center" timestamp="1620569536413">
+    <state width="1894" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620625453885" />
+    <state width="1894" height="175" key="GridCell.Tab.0.center" timestamp="1620625453885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620569536413" />
-    <state width="1894" height="175" key="GridCell.Tab.0.left" timestamp="1620569536413">
+    <state width="1894" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620625453885" />
+    <state width="1894" height="175" key="GridCell.Tab.0.left" timestamp="1620625453885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620569536413" />
-    <state width="1894" height="175" key="GridCell.Tab.0.right" timestamp="1620569536413">
+    <state width="1894" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620625453885" />
+    <state width="1894" height="175" key="GridCell.Tab.0.right" timestamp="1620625453885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620569536413" />
+    <state width="1894" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620625453885" />
     <state width="1894" height="333" key="GridCell.Tab.1.bottom" timestamp="1619012144087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,5 +231,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1894" height="333" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619012144087" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1620623366559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620623366559" />
   </component>
 </project>
