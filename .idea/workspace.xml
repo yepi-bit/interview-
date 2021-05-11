@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f29d70a-8fc3-4ca8-8f51-e09c219734ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apply.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bind.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/call.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图片懒加载.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/排序和大小写/快速排序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/切角、伪类、渐变、旋转实现.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/抖音LOGO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/纯CSS实现title属性hover效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/随机背景图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/雨天.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/雷电.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/扫描.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/节流和防抖/节流.html" beforeDir="false" afterPath="$PROJECT_DIR$/节流和防抖/节流.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,45 +48,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStorm-2019.3.3\interview\CSS特效" />
       <recent name="E:\WebStorm-2019.3.3\interview\Promise" />
       <recent name="E:\WebStorm-2019.3.3\practice\宏任务和微任务" />
       <recent name="E:\WebStorm-2019.3.3\practice\排序和大小写" />
       <recent name="E:\WebStorm-2019.3.3\practice\CSS特效" />
-      <recent name="E:\WebStorm-2019.3.3\practice\Get和Post" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.快速排序.html">
+  <component name="RunManager" selected="JavaScript Debug.扫描.html">
     <configuration name="CSS.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS特效/CSS.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="快速排序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/排序和大小写/快速排序.html" useBuiltInWebServerPort="true">
+    <configuration name="纯CSS实现title属性hover效果.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/纯CSS实现title属性hover效果.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/防抖.html" useBuiltInWebServerPort="true">
+    <configuration name="雷电.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/雷电.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="节流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/节流.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="排序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/排序和大小写/排序.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组去重.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="小球穿梭.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/小球穿梭.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="大小写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/大小写.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="原型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/原型.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/两栏布局.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组.html" useBuiltInWebServerPort="true">
+    <configuration name="扫描.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/扫描.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="用闭包程序写计数器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/用闭包程序写计数器.html" useBuiltInWebServerPort="true">
@@ -103,16 +83,22 @@
     <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/两栏布局.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/防抖.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="导航弹性布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/导航弹性布局.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/防抖.html" useBuiltInWebServerPort="true">
+    <configuration name="倒计时.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/倒计时.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="倒计时.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/倒计时.html" useBuiltInWebServerPort="true">
+    <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/防抖.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="切角、伪类、渐变、旋转实现.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/切角、伪类、渐变、旋转实现.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="排序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/排序.html" useBuiltInWebServerPort="true">
@@ -121,16 +107,41 @@
     <configuration name="去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/去重.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="图片懒加载.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/图片懒加载.js" working-dir="$PROJECT_DIR$">
+    <configuration name="节流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/节流.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="排序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/排序和大小写/排序.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组去重.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="随机背景图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/随机背景图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="雨天.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/雨天.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="小球穿梭.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/小球穿梭.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="大小写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/大小写.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/原型.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/两栏布局.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.快速排序.html" />
-        <item itemvalue="JavaScript Debug.排序.html" />
-        <item itemvalue="JavaScript Debug.节流.html" />
-        <item itemvalue="JavaScript Debug.防抖.html" />
-        <item itemvalue="Node.js.图片懒加载.js" />
+        <item itemvalue="JavaScript Debug.扫描.html" />
+        <item itemvalue="JavaScript Debug.纯CSS实现title属性hover效果.html" />
+        <item itemvalue="JavaScript Debug.雷电.html" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +183,10 @@
       <workItem from="1620572630280" duration="5000" />
       <workItem from="1620572640416" duration="4489000" />
       <workItem from="1620620872989" duration="4578000" />
+      <workItem from="1620653027485" duration="23000" />
+      <workItem from="1620708334867" duration="4889000" />
+      <workItem from="1620718751427" duration="1004000" />
+      <workItem from="1620720131425" duration="313000" />
     </task>
     <servers />
   </component>

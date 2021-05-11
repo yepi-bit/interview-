@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<section id="corner" class="code-wrap cf">
+    <div class="css-live-wrap">
+        <div class="star" title="致敬《CSS SECRET》作者，此实例是书中例子"></div>
+        <summary>折角</summary>
+        <summary>利用切角、伪类、渐变、旋转实现</summary>
+        <hgroup class="corner">
+            <h1>.corner</h1>
+        </hgroup>
+    </div>
+    <style class="code" contenteditable=true>
+        .corner{
+            position: absolute;
+            top:50%;left: 50%;
+            transform:translate(-50%,-50%);
+            width: 120px;line-height:120px;
+            padding:40px;
+            text-align: center;
+            color: white;
+            font-size: 200%;
+            background:linear-gradient(-150deg,transparent 1.5em, yellowgreen  0);
+            border-radius:.5em;
+        }
+        .corner:before{
+            content: '';
+            position: absolute;
+            top: 0; right: 0;
+            background:
+                    linear-gradient(to left bottom,transparent 50%, rgba(0,0,0,.2) 0, rgba(0,0,0,.4)) 100% 0 no-repeat;
+            width: 1.73em; height: 3em;
+            transform: translateY(-1.3em) rotate(-30deg);
+            transform-origin: bottom right;
+            border-bottom-left-radius: inherit;
+            box-shadow: -.2em .2em .3em -.1em rgba(0,0,0,.15);
+        }
+
+    </style>
+</section>
+</html>

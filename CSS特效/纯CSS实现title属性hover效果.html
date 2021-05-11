@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<section id="hover-title" class="code-wrap cf">
+    <div class="css-live-wrap">
+        <summary>纯CSS实现title属性hover效果（单标签实现）</summary>
+        <summary>利用伪元素 content 的可读取 attr 特性</summary>
+        <summary>鼠标hover文字可看到效果，使用审查元素查看HTML结构</summary>
+        <hgroup class="hover-title" data-msg="类title框展示">
+            Hover ME
+        </hgroup>
+    </div>
+    <style class="code" contenteditable=true>
+        .hover-title{
+            position: absolute;
+            top: 50%;left: 50%;
+            transform: translate(-50%, -50%);
+            width:120px;
+            line-height:38px;
+            color:#333;
+            text-align:center;
+            font-size:24px;
+            cursor:pointer;
+        }
+
+        .hover-title:hover::before{
+            content:attr(data-msg);
+            position:absolute;
+            top:-50px;
+            left:10px;
+            padding:2px 6px;
+            display:inline-block;
+            color:#333;
+            border:1px solid #333;
+            border-radius:5px;
+            font-size:14px;
+        }
+
+        .hover-title:hover::after{
+            content:"";
+            border-top:5px solid #333;
+            border-left:5px solid transparent;
+            border-right:5px solid transparent;
+            position:absolute;
+            top:-6px;
+            left:55px;
+        }
+    </style>
+</section>
+</html>

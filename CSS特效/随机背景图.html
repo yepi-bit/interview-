@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<section class="code-wrap cf">
+    <div class="css-live-wrap">
+        <div class="star" title="致敬《CSS SECRET》作者，此实例是书中例子"></div>
+        <summary>随机背景图</summary>
+        <summary>利用渐变、蝉随机实现</summary>
+        <hgroup class="random-stripe">
+            <h1>.random-stripe</h1>
+        </hgroup>
+    </div>
+    <style class="code" contenteditable=true>
+        .random-stripe {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            line-height: 200px;
+            text-align: center;
+            color: #fff;
+            font-size: 200%;
+            border-radius: .5em;
+            background: hsl(20, 40%, 90%);
+            background-image:
+                    linear-gradient(90deg, #663366 11px, transparent 0),
+                    linear-gradient(90deg, #CCCCCC 23px, transparent 0),
+                    linear-gradient(90deg, #CC99CC 41px, transparent 0),
+                    linear-gradient(90deg, #ff9933 53px, transparent 0);
+            background-size: 59px 100%, 61px 100%, 83px 100%, 103px 100%;
+        }
+    </style>
+</section>
+</html>
