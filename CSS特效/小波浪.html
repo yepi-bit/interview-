@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>
+        ~小~波~浪~
+    </h2>
+</body>
+<style>
+    body{
+        position: relative;
+        min-height: 100vh;
+        background-color: skyblue;
+        overflow: hidden;
+        align-items: center;
+    }
+    body:before,
+    body:after{
+        content: '';
+        position: absolute;
+        background-color: #ffffff;
+        min-width: 300vw;
+        min-height: 300vw;
+        left: 50%;
+        animation: rotate infinite linear;
+    }
+    body:before{
+        bottom: 15vh;
+        border-radius: 45%;
+        animation-duration: 10s;
+    }
+    body:after{
+        bottom: 12vh;
+        border-radius: 47%;
+        opacity: 0.5;
+        animation-duration: 10s;
+    }
+    @keyframes rotate {
+        0% {
+            transform: translate(-50%, 0) rotate(0deg);
+        }
+        50% {
+            transform: translate(-50%, -2%) rotate(180deg);
+        }
+        100% {
+            transform: translate(-50%, 0) rotate(360deg);
+        }
+    }
+    h2{
+        position: relative;
+        color: black;
+        line-height: 140vh;
+        height: 100vh;
+        font-size: 8vw;
+        text-shadow: 3px 3px 2px #999999;
+        z-index: 10;
+    }
+</style>
+</html>
