@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f29d70a-8fc3-4ca8-8f51-e09c219734ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS位置/flex1 详解.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS特效/小波浪.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/promise.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符特性/提取结果.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/箭头和普通函数.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/跨域相关/repeat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSON对象的方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Promise/promise输出相同.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/原型链.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/排序和大小写/逆排序.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/箭头函数语法.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/扫描.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS特效/扫描.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数组/去重.html" beforeDir="false" afterPath="$PROJECT_DIR$/数组/去重.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML4 File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,21 +47,63 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStorm-2019.3.3\interview\排序和大小写" />
       <recent name="E:\WebStorm-2019.3.3\interview\CSS位置" />
       <recent name="E:\WebStorm-2019.3.3\interview\CSS特效" />
       <recent name="E:\WebStorm-2019.3.3\interview\Promise" />
       <recent name="E:\WebStorm-2019.3.3\practice\宏任务和微任务" />
-      <recent name="E:\WebStorm-2019.3.3\practice\排序和大小写" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.repeat.js">
+  <component name="RunManager" selected="JavaScript Debug.JSON对象的方法.html">
     <configuration name="CSS.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS特效/CSS.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="JSON对象的方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JSON对象的方法.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="结合场景.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/Promise/结合场景.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="扫描.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/扫描.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="雨天.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/雨天.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="小球穿梭.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/小球穿梭.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="节流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/节流.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/防抖.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/两栏布局.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="小波浪.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/小波浪.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="用闭包程序写计数器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/用闭包程序写计数器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="中心文字.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/中心文字.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/数组/去重.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="防抖.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/防抖.html" useBuiltInWebServerPort="true">
+    <configuration name="倒计时.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/倒计时.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/两栏布局.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/去重.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="导航弹性布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/导航弹性布局.html" useBuiltInWebServerPort="true">
@@ -87,7 +127,7 @@
     <configuration name="排序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/排序.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/去重.html" useBuiltInWebServerPort="true">
+    <configuration name="大小写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/大小写.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="节流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/节流.html" useBuiltInWebServerPort="true">
@@ -102,46 +142,13 @@
     <configuration name="随机背景图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/随机背景图.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="扫描.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/扫描.html" useBuiltInWebServerPort="true">
+    <configuration name="箭头函数语法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/箭头函数语法.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="雨天.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/雨天.html" useBuiltInWebServerPort="true">
+    <configuration name="逆排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序和大小写/逆排序.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="小球穿梭.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/小球穿梭.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="大小写.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/大小写.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/两栏布局.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="小波浪.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/小波浪.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="用闭包程序写计数器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/用闭包程序写计数器.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="中心文字.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/中心文字.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="倒计时.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/倒计时.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="节流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/节流和防抖/节流.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS位置/两栏布局.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="flex1 详解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置/flex1 详解.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="箭头和普通函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/箭头和普通函数.js" working-dir="$PROJECT_DIR$">
+    <configuration name="原型链.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/原型链.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="提取结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/提取结果.js" working-dir="$PROJECT_DIR$/字符特性">
@@ -150,19 +157,15 @@
     <configuration name="提取结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/提取结果.js" working-dir="$PROJECT_DIR$/字符特性">
       <method v="2" />
     </configuration>
-    <configuration name="promise.all.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/promise.all.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="repeat.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/跨域相关/repeat.js" working-dir="$PROJECT_DIR$/跨域相关">
+    <configuration name="promise输出相同.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Promise/promise输出相同.js" working-dir="$PROJECT_DIR$/Promise">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.repeat.js" />
-        <item itemvalue="Node.js.promise.all.js" />
-        <item itemvalue="JavaScript Debug.去重.html" />
-        <item itemvalue="Node.js.箭头和普通函数.js" />
-        <item itemvalue="JavaScript Debug.flex1 详解.html" />
+        <item itemvalue="JavaScript Debug.JSON对象的方法.html" />
+        <item itemvalue="Node.js.箭头函数语法.js" />
+        <item itemvalue="JavaScript Debug.结合场景.html" />
+        <item itemvalue="Node.js.promise输出相同.js" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +215,11 @@
       <workItem from="1620793829631" duration="6924000" />
       <workItem from="1620814848684" duration="2154000" />
       <workItem from="1620839555884" duration="2615000" />
+      <workItem from="1620877451160" duration="17000" />
+      <workItem from="1620901141048" duration="3176000" />
+      <workItem from="1620992831245" duration="1286000" />
+      <workItem from="1621055682773" duration="2375000" />
+      <workItem from="1621058170753" duration="621000" />
     </task>
     <servers />
   </component>
@@ -223,22 +231,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620568527835" />
-    <state width="1894" height="175" key="GridCell.Tab.0.bottom" timestamp="1620842172603">
+    <state width="1894" height="164" key="GridCell.Tab.0.bottom" timestamp="1620996076480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620842172603" />
-    <state width="1894" height="175" key="GridCell.Tab.0.center" timestamp="1620842172603">
+    <state width="1894" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620996076480" />
+    <state width="1894" height="164" key="GridCell.Tab.0.center" timestamp="1620996076480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620842172603" />
-    <state width="1894" height="175" key="GridCell.Tab.0.left" timestamp="1620842172603">
+    <state width="1894" height="164" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620996076480" />
+    <state width="1894" height="164" key="GridCell.Tab.0.left" timestamp="1620996076480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620842172603" />
-    <state width="1894" height="175" key="GridCell.Tab.0.right" timestamp="1620842172603">
+    <state width="1894" height="164" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620996076480" />
+    <state width="1894" height="164" key="GridCell.Tab.0.right" timestamp="1620996076480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620842172603" />
+    <state width="1894" height="164" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620996076480" />
     <state width="1894" height="333" key="GridCell.Tab.1.bottom" timestamp="1619012144087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

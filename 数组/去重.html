@@ -21,6 +21,9 @@
     console.log(str6);
     str7 = str.split('').reverse().join(',')
     console.log(str7);
+    // 正则去重
+    str8 = str.replace(/(.)\1+/g,'$1');
+    console.log(str8);
 </script>
 </body>
 </html>

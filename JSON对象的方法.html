@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function init() {
+            var str = '{"a":"1","b":"2"}';
+            var book={
+                title:"javaScript高级程序设计",
+                authors:["Nicholas C. Zakas"],
+                edition:3,
+                year:2021
+            };
+            var JsonBook = JSON.stringify(book); // 把一个JavaScript对象序列化一个JSON字符串
+            console.log(JsonBook);
+
+            var objectBook = JSON.parse(JsonBook);
+            console.log(objectBook);
+
+            var test = JSON.parse(str) // 从一个字符串中解析出JSON对象
+            console.log(test);
+
+        }
+    </script>
+</head>
+<body>
+    <input type="button" onclick="init()" value="测试" />
+</body>
+</html>
