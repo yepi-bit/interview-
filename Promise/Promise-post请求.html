@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    new Promise((resolve, reject)=>{
+        $.ajax({
+            url : 'http://localhost:8181/boy/list',
+            type: 'post',
+            success(res){
+                resolve(res);
+            },
+            error(err){
+                reject(err);
+            }
+        });
+    }).then((res)=>{
+        console.log('success:', res);
+    },(err) => {
+        console.log('error:', err);
+    });
+</script>
+<body>
+</body>
+</html>
