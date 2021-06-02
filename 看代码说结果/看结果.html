@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// 1.
+    var test = (function (i) {
+        return function () {
+            alert(i*=2);  // 这题要放在html运行 alert 都要转化成字符串
+        }
+    })(2);  // "4"
+    test(5);
+
+
+// 2.
+    var a = 0,
+        b = 0;
+    function A(a) {  // 函数都说执行栈
+        A = function (b) {
+            alert(a + b++);
+        };
+        alert(a++);
+    }
+    A(1)   //  "1"    不销毁
+    A(2)   //  "4      销毁
+</script>
+</body>
+</html>

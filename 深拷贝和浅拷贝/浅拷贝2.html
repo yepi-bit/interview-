@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let obj = {
+            a: 100,
+            b: [10,20,30],
+            c: {
+                x: 10
+            },
+            d: /^\d+$/
+    };
+    // 方式1
+    let obj2 = {};
+    for (let key in obj) {
+        if(!obj.hasOwnProperty(key)) break;
+        obj2[key] = obj[key];
+    };
+    // 方式2  es6 有的
+    let obj3 = {
+    ...obj
+    }
+
+    let obj4 = JSON.parse(JSON.stringify(obj))   // 有弊端  像正则，日期 都会变成空对象
+
+    console.log(obj, obj2, obj3, obj4);
+</script>
+</body>
+</html>

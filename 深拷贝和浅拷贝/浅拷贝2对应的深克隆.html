@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let obj = {
+        a: 100,
+        b: [10,20,30],
+        c: {
+            x: 10
+        },
+        d: /^\d+$/
+    };
+
+    function deepClone(obj) {
+        // 过滤特殊字符串
+        if(obj === null) return null;
+        if(typeof obj !== "object") return obj;
+        if(obj instanceof RegExp) {
+            return new RegExp(obj)
+        }
+        if(obj instanceof Date) {
+            return new Date(obj)
+        }
+
+            // 不直接创建空对象，克隆结果和之前保持相同所属值
+        let newObj = new obj.constructor;
+        for (let key in obj) {
+            if(obj.hasOwnProperty(key)) {
+                newObj[key] = deepClone(obj[key]);
+            }
+        }
+        return newObj
+    }
+    let obj2 = deepClone(obj);
+    console.log(obj, obj2);
+    console.log(obj === obj2);
+    console.log(obj.c === obj2.c);
+</script>
+</body>
+</html>
