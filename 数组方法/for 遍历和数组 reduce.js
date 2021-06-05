@@ -10,6 +10,7 @@ for (let file of files) {
     }
 }
 console.log(filePaths);
+
 // 方法2
 const files1 = [ 'foo.txt ', '.bar', '   ', 'baz.foo' ];
 const filePaths1 = files1.reduce((acc, file) => {
@@ -22,6 +23,7 @@ const filePaths1 = files1.reduce((acc, file) => {
 }, []);
 
 console.log(filePaths1);
+
 // 方法3
 const files2 = [ 'foo.txt ', '.bar', '   ', 'baz.foo' ];
 const filePaths2 = files2

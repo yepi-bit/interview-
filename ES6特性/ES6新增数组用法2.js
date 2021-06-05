@@ -2,7 +2,7 @@
 var arr = [1,3,6,9,12];
 arr.forEach(function (currentValue,index,Arr) {
     console.log(index + "---" + currentValue + "---" + (Arr === arr));
-})
+})  // 不能使用return,break等中断循环
 
 // map
 var arr1 = [1,2,4,6,8];
