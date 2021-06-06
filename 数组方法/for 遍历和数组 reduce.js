@@ -1,4 +1,4 @@
-// 方法1
+// 方法1  for of
 const files = [ 'foo.txt ', '.bar', '   ', 'baz.foo' ];
 let filePaths = [];
 
@@ -11,7 +11,7 @@ for (let file of files) {
 }
 console.log(filePaths);
 
-// 方法2
+// 方法2 reduce
 const files1 = [ 'foo.txt ', '.bar', '   ', 'baz.foo' ];
 const filePaths1 = files1.reduce((acc, file) => {
     const fileName = file.trim();
@@ -24,7 +24,7 @@ const filePaths1 = files1.reduce((acc, file) => {
 
 console.log(filePaths1);
 
-// 方法3
+// 方法3   map
 const files2 = [ 'foo.txt ', '.bar', '   ', 'baz.foo' ];
 const filePaths2 = files2
     .map(file => file.trim())

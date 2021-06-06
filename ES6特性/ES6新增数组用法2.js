@@ -2,14 +2,14 @@
 var arr = [1,3,6,9,12];
 arr.forEach(function (currentValue,index,Arr) {
     console.log(index + "---" + currentValue + "---" + (Arr === arr));
-})  // 不能使用return,break等中断循环
+})  // 不能使用return,break等中断循环   forEach()允许callback更改原始数组的元素。forEach()不会返回数据.
 
 // map
 var arr1 = [1,2,4,6,8];
 var arr2 = arr1.map(function (currentValue) {
     return currentValue * currentValue;
 });
-console.log(arr2); // [ 1, 4, 16, 36, 64 ]
+console.log(arr2); // [ 1, 4, 16, 36, 64 ]    // map()会分配内存空间存储新数组并返回
 
 // filter 过滤筛选返回新数组
 var arr3 = [1,2,3,4,5];
