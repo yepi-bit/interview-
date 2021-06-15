@@ -6,6 +6,8 @@ console.log(typeof (undefined)); // undefined
 console.log(typeof (null)); // object
 console.log(typeof (symbol)); // undefined
 console.log(typeof (NaN)); // number
+console.log(typeof []);
+console.log(typeof {});
 
 var obj = {};
 console.log(obj instanceof Object);  // true
@@ -21,3 +23,5 @@ console.log(func instanceof Function);  // true
 
 var str = 'string';
 console.log(str instanceof String);  // false
+
+

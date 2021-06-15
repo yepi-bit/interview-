@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="text" id="content" />
+    请输入：
+    <span id="span"></span>
+</body>
+<script>
+    let obj = {};
+    let input = document.getElementById('content')
+    Object.defineProperty(obj, 'text', {
+        get() {
+            console.log('数据更新了')
+        },
+        set(newValue) {
+        input.value = newValue
+        span.innerHTML = newValue
+    }
+    })
+    input.addEventListener('keyup', function(e) {
+        obj.text = e.target.value
+    })
+</script>
+</html>

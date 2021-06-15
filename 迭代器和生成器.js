@@ -16,3 +16,20 @@ var it = foo( 1 );
 console.log( it.next() );
 console.log( it.next(12) );
 console.log( it.next(13) );
+
+
+function* helloWorld() {
+    yield 'hello';
+    yield 'world';
+    return 'ending';
+}
+
+const generator = helloWorld();
+
+console.log(generator.next());
+
+console.log(generator.next());
+
+console.log(generator.next());
+
+console.log(generator.next());
