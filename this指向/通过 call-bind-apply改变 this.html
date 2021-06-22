@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    this.myName = 'Mr';
+    let foo = function() {
+        this.myName = 'Lady';   // 这时候的 this 指向 window
+    }
+    foo();
+    console.log(window.myName);  // Lady
+    console.log(foo.myName);    // undefined
+
+
+    // 通过 call 绑定后：
+    this.myName2 = 'Mr';
+    let foo2 = function() {
+        this.myName2 = 'Lady';
+    }
+    foo2.call(foo2);
+    console.log(window.myName2); // Mr
+    console.log(foo2.myName2); // Lady
+
+</script>
+</body>
+</html>

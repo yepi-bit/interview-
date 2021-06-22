@@ -19,7 +19,7 @@ var rotate2 = function(matrix) {
     let arr = [...matrix]
     for(let i = 0; i < arr.length; i++){  //如下 i=0时 00->01->02； i=1时 10->11->12；
         let list = []
-        for(let j = 0; j < arr[0].length ; j++){
+        for(let j = 0; j < arr[0].length ; j++) {
             list.push(arr[j][i])    // 横排变列排
         }
         matrix[i] = list.reverse()  // 竖直左右交换

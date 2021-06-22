@@ -19,7 +19,6 @@ console.log(person.nation)
 person.say()
 
 
-
 function Parent() {
     this.name = ['A', 'B']
 }
