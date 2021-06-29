@@ -16,3 +16,4 @@ console.log(obj);
 console.log(obj.test2());
 console.log(obj.test1());
 console.log(fn() === obj.test2())
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <a href="倒计时.html">点击我跳转</a>
+
+<!--  冒泡事件： 冒泡指的是：当给某个目标元素绑定了事件之后，这个事件会依次在它的父级元素中被触发(当然前提是这个父级元素也有这个同名称的事件，比如子元素和父元素都绑定了click事件就触发父元素的click)-->
+    <ul onclick="alert('ul')">
+        <li onclick="alert('li')">
+            <button onclick="alert('button')">点击</button>
+        </li>
+    </ul>
+    <script>
+        window.addEventListener('click', function (e) {
+            alert('window')
+        })
+        document.addEventListener('click', function (e) {
+            alert('document')
+        })
+    </script>
+</body>
+    <style>
+        a:visited{ /* visited在hover后面，这样的话hover事件就失效了 */
+            color: red;
+            text-decoration: none;
+        }
+        /*// link→visited→hover→active*/
+        a:hover{
+            color: green;
+            text-decoration: none;
+        }
+
+    </style>
+</html>

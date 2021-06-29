@@ -12,3 +12,12 @@ console.info( str.replace(/\d{1,3}(?=(\d{3})+$)/g,function(s){
 console.info( str.split("").reverse().join("").replace(/(\d{3})+?/g,function(s){
     return s+",";
 }).replace(/,$/,"").split("").reverse().join("") )
+
+// 方法3
+function parseToMoney(str){
+    // 仅仅对位置进行匹配
+    let re = /(?=(?!\b)(\d{3})+$)/g;
+    return str.replace(re,',');
+}
+
+console.log(parseToMoney('112312312312'));

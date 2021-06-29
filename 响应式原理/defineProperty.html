@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="box"></div>
+<script>
+    var obox = document.getElementById("box")
+    var obj = {}
+    Object.defineProperty(obj, "myname", {
+        set(value) {
+            console.log("有人修改了",value);
+            obox.innerHTML = value
+        },
+        get() {
+            console.log("有人访问了");
+        }
+    })
+</script>
+</body>
+</html>

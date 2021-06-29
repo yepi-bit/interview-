@@ -20,8 +20,9 @@ var mySqrt = function(x) {
 }
 mySqrt(4)
 console.log(mySqrt(8));
-// 方法2
 
+
+// 方法2
 var mySqrt1 = function(x) {
     while(x>=0){
         return (Math.sqrt(x)|0);
