@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="1">600元优惠券</div>
+    <div class="2">800元优惠券</div>
+    <div class="3">1000元优惠券</div>
+    <div class="0">800元优惠券</div>
+    <div class="8">
+        <button>开始</button>
+        <button>停止</button>
+    </div>
+    <div class="4">600元优惠券</div>
+    <div class="7">600元优惠券</div>
+    <div class="6">1000元优惠券</div>
+    <div class="5">800元优惠券</div>
+</div>
+<script>
+    var divs = document.querySelectorAll(".container>div");
+    var btns = document.querySelectorAll(".container>div>button");
+    var timeId = null;
+    var index = 0;
+    btns[0].onclick = function () {
+        clearInterval(timeId);
+        timeId = setInterval(() => {
+            for (var j = 0; j < divs.length; j++) {
+                divs[j].style.backgroundColor = "#aa00ff";
+            }
+            for (var i = 0; i < divs.length; i++) {
+                if (Number(divs[i].getAttribute("class")) === index % 8) {
+                    divs[i].style.backgroundColor = "#f50057";
+                    break;
+                }
+            }
+            index++;
+        }, 60);
+    }
+    btns[1].onclick= function () {
+        setTimeout(() => {
+            clearInterval(timeId)
+        },1500)
+    }
+</script>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin: 50px auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .container>div {
+        width: 150px;
+        height: 150px;
+        background-color: #e65100;
+        color: #ffffff;
+        text-align: center;
+        line-height: 150px;
+    }
+
+    button {
+        width: 60px;
+        height: 30px;
+    }
+</style>
+</html>

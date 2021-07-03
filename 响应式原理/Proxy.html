@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input id="input" />
+<div id="text"></div>
+
+<script>
+    const watch = (target, callback) => {
+        return new Proxy(target, {
+            get(target, property) {
+                return target[property];
+            },
+            set(target, property, value) {
+                const original = target[property];
+                target[property] = value;
+                callback && callback(value, original);
+            }
+        });
+    }
+    const data = {};
+    const p = watch(data, (n, o) => {
+        text.innerText = n;
+    });
+    input.oninput = (e) => {
+        p.text = e.target.value;
+    }
+</script>
+</body>
+</html>
