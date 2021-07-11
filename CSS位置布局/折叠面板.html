@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <h3>折叠面板</h3>
+        <div>
+            <div class="title">
+                <h4>请选择</h4>
+                <span class="btn">收起</span>
+            </div>
+            <div class="container">
+                <p>aaaaaaaa</p>
+                <p>bbbbbbbb</p>
+                <p>cccccccc</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let btn = document.querySelectorAll('.btn'),
+        btnWraps = document.querySelectorAll('.container');
+    btn.forEach((ele, index) => {
+        ele.displayOpen = 'false';　　　　//创建一个属性来记录当前面板是否展开   true 展开 false折叠
+        btn[index].onclick = ((e) => {
+            let Open = e.toElement.displayOpen; //先保存Open。接下来要重置
+            btnInit();
+            Open ==='false' ? e.toElement.displayOpen='true' : e.toElement.displayOpen = 'false';
+            repaint();
+        });
+    });
+    function repaint() {
+        btn.forEach((ele, index) => {
+            ele.displayOpen ==='true' ? btnWraps[index].style.display = 'block' : btnWraps[index].style.display = 'none';
+        })
+    }
+    function btnInit() {
+        btn.forEach((ele, index) => {
+            ele.displayOpen = 'false';
+        })
+    }
+</script>
+<style>
+    body {
+        background: #ccc;
+    }
+    #app {
+        width: 400px;
+        margin: 20px auto;
+        background-color: #fff;
+        border: 4px solid blueviolet;
+        border-radius: 1em;
+        box-shadow: 3px 3px 3px rgba(0,0,0,1);
+        padding: 1em 2em 3em;
+    }
+    h3 {
+        text-align: center;
+        padding: .5em 0;
+    }
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-btn: center;
+        border: 1px solid #ccc;
+        padding: 0 1em;
+    }
+    .title h4 {
+        line-height: 2;
+        margin: 0;
+    }
+    .container {
+        border: 1px solid #ccc;
+        padding: 0 1em;
+    }
+    .btn {
+        cursor: pointer;
+    }
+</style>
+</html>

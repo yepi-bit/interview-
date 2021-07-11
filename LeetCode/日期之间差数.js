@@ -6,4 +6,3 @@ var daysBetweenDates = function(date1, date2) {
 };
 var days = daysBetweenDates("2003-04-09","2021-06-19")
 console.log(days);
-

@@ -15,3 +15,4 @@ console.log(numbersequal(a,b)); //true
 // 把计算数字提升 10的N次方倍再除以 10的N次方。N>1
 console.log((0.1 * 1000 + 0.2 * 1000) / 1000 === 0.3);
 //true
+

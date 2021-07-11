@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button class="btn" id="back">顶</button>
+</body>
+<script>
+    let scrollTop = 0;
+    let back = document.getElementById('back');
+    back.onclick = function () {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
+</script>
+<style>
+    .btn {
+        box-sizing: border-box;
+        position: fixed;
+        width:50px;
+        height:50px;
+        height: 50px;
+        right: 100px;
+        bottom: 100px;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #CC99CC;
+    }
+</style>
+</html>

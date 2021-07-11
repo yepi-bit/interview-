@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度搜索下拉</title>
+</head>
+<body>
+    <input type="text" name="" id="" value="" class="input" onkeyup="getNum(this)" placeholder="请输入关键字查询"/>
+</body>
+<script type ="text/javascript">
+    var arr = ["a","ab","abc","abcde","b","bss","cs","fd","re","ds","grtg","w","dw","s","sw"];
+    var main = document.body;
+    function getNum(ele) {
+        if(document.querySelector(".dv")) {//在开始创建之前先检察
+            main.removeChild(document.querySelector(".dv"));
+        }
+        var str = ele.value;
+        var tempArr = [];//创建临时数组
+        for(var i = 0;i < arr.length; i++) {
+            if(arr[i].indexOf(str) === 0) {
+                tempArr.push(arr[i]);//如果相同,就保存在临时数组中
+            }
+        }
+        // if(str.length==0||tempArr.length==0){
+        // 	if(document.querySelector(".dv")){
+        // 		main.removeChild(document.querySelector(".dv"));
+        // 	}
+        // 	return;
+        // }
+        //创建下拉框
+        if(tempArr.length !== 0) {
+            var div = document.createElement("div");
+            main.appendChild(div);//加入到页面中
+            div.className = "dv";
+            for(var j = 0;j < tempArr.length; j++) {
+                var p = document.createElement("p");
+                div.appendChild(p);
+                p.innerText = tempArr[j];
+            }
+        }
+        //再判断=====>或者是将这个位置加到创建下拉框之前,然后在if后面添加返回值return;
+        if(str.length === 0 || tempArr.length === 0){
+            if(document.querySelector(".dv")) {
+                main.removeChild(document.querySelector(".dv"));
+            }
+        }
+    }
+</script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .input {
+        width: 300px;
+        height: 40px;
+    }
+    .input:active {
+        border: 2px solid chartreuse;
+    }
+    .dv {
+        width: 302px;;
+        border: 1px solid cornflowerblue;
+        background-color: deepskyblue;
+    }
+</style>
+</html>

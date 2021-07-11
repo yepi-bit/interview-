@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="box">
+    <a href="九方格大转盘.html"></a>看底部效果
+</div>
+</body>
+<style>
+    .box {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border: 1px solid slateblue;
+        line-height: 200px;
+        text-align: center;
+    }
+    .box a {
+        position: absolute;
+        display: block;
+        width: 200px;
+        height: 200px;
+    }
+    .box a::before, .box a::after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 0;
+        height: 6px;
+        bottom: 0;
+        background: #2196f3;
+        transition: all 0.5s;
+    }
+    .box a::before {
+        right: 50%;
+    }
+    .box a:hover::before {
+        width: 50%;
+    }
+    .box a::after {
+        left: 50%;
+    }
+    .box a:hover::after {
+        width: 50%;
+    }
+</style>
+</html>
