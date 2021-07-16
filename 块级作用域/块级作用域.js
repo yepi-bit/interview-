@@ -29,7 +29,7 @@ var newArr = arr.map(function (item) {
 console.log(newArr);
 
 
-// 箭头函数
+// 箭头函数和普通函数
 const arr1 = [1, 2, 3, 4]
 var newArr1 = arr1.map(item => item + 1)
 var newArr2 = arr1.map((item, index) => {
