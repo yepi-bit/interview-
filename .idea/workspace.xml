@@ -2,29 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f29d70a-8fc3-4ca8-8f51-e09c219734ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS形状/0.5细线.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS特效/大风车.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作用域，闭包/for循环打印.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/作用域，闭包/循环中setTimeout打印.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数组方法/删除某个元素.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/看代码说结果/异步输出.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/等价和数据类型判断/ES5判断数组类型.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/等价和数据类型判断/ES6判断数组类型.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/等价和数据类型判断/特殊判断.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS位置布局/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS位置布局/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS位置布局/轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS位置布局/轮播图2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/触碰蒙层.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/矩阵螺旋输出.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/this指向/this指向3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/看代码说结果/this指向.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/看代码说结果/定时器.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/看代码说结果/指向题.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/看代码说结果/通过reduce来实现map函数.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/看输出/字节架构.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/flex水平居中布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS水平垂直居中/flex水平居中布局.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/flex给子项设置水平居中布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS水平垂直居中/flex给子项设置水平居中布局.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/table实现垂直水平居中.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS水平垂直居中/table实现垂直水平居中.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/两栏布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS位置布局/两栏布局.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/绝对定位实现水平居中.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS水平垂直居中/绝对定位实现水平居中.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/绝对居中.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS位置布局/绝对居中.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS特效/CSS.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS特效/CSS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS特效/抖音LOGO.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS特效/抖音LOGO.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/作用域，闭包/闭包同步异步.js" beforeDir="false" afterPath="$PROJECT_DIR$/作用域，闭包/闭包异步每隔一秒打印.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/块级作用域/块级作用域.js" beforeDir="false" afterPath="$PROJECT_DIR$/块级作用域/块级作用域.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/箭头函数/箭头函数基本用法.js" beforeDir="false" afterPath="$PROJECT_DIR$/箭头函数和普通函数/箭头函数基本用法.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/箭头函数/箭头函数语法.js" beforeDir="false" afterPath="$PROJECT_DIR$/箭头函数和普通函数/箭头函数语法.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/箭头函数/箭头和普通函数.js" beforeDir="false" afterPath="$PROJECT_DIR$/箭头函数和普通函数/箭头和普通函数.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +29,8 @@
       <list>
         <option value="HTML4 File" />
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,12 +38,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qbkAC06qvL72ApIuwkwY3SXL4k" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -75,26 +69,17 @@
       <recent name="E:\WebStorm-2019.3.3\interview\柯里化和扁平化" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.for循环打印.js">
-    <configuration name="0.5细线.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/0.5细线.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.轮播图.html">
+    <configuration name="轮播图2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/轮播图2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="CSS.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS特效/CSS.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="上下布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置/上下布局.html" useBuiltInWebServerPort="true">
+    <configuration name="两栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/两栏布局.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/九方格大转盘.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="斜线缩放.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/斜线缩放.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="骰子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/骰子.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="绝对居中.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/绝对居中.html" useBuiltInWebServerPort="true">
+    <configuration name="轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/轮播图.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="骰子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/骰子.html" useBuiltInWebServerPort="true">
@@ -139,25 +124,88 @@
     <configuration name="数组去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组去重.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="lx.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/lx.html" useBuiltInWebServerPort="true">
+    <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/九方格大转盘.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="闭包异步每隔一秒打印.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/作用域，闭包/闭包异步每隔一秒打印.js" working-dir="$PROJECT_DIR$/作用域，闭包">
+    <configuration name="斜线缩放.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/斜线缩放.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="字符转日期.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期.js" working-dir="$PROJECT_DIR$/字符特性">
+    <configuration name="骰子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/骰子.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="绝对居中.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/绝对居中.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="字节架构.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看输出/字节架构.js" working-dir="$PROJECT_DIR$/看输出">
+      <method v="2" />
+    </configuration>
+    <configuration name="矩阵螺旋输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/矩阵螺旋输出.js" working-dir="$PROJECT_DIR$/LeetCode">
+      <method v="2" />
+    </configuration>
+    <configuration name="操作数比较.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价判断/操作数比较.js" working-dir="$PROJECT_DIR$/等价判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="屏幕等比例放大.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/屏幕等比例放大.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="递归方法实现深拷贝.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/深拷贝和浅拷贝/递归方法实现深拷贝.js" working-dir="$PROJECT_DIR$/深拷贝和浅拷贝">
+      <method v="2" />
+    </configuration>
+    <configuration name="看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看结果.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="枚举.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/枚举.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="字符串转整数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/字符串转整数.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
     <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
-    <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
+    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
+      <method v="2" />
+    </configuration>
+    <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/字符特性">
+      <method v="2" />
+    </configuration>
+    <configuration name="看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/看结果.js" working-dir="$PROJECT_DIR$/看代码说结果">
+      <method v="2" />
+    </configuration>
+    <configuration name="作用域看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/作用域，闭包/作用域看结果.js" working-dir="$PROJECT_DIR$/作用域，闭包">
+      <method v="2" />
+    </configuration>
+    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型链.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/原型链.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="开平方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/开平方.js" working-dir="$PROJECT_DIR$/LeetCode">
+      <method v="2" />
+    </configuration>
+    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="函数柯里化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/函数柯里化.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="看结果基本题型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/看结果基本题型.js" working-dir="$PROJECT_DIR$/看代码说结果">
       <method v="2" />
     </configuration>
     <configuration name="判断是否存在重复元素.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/判断是否存在重复元素.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
     <configuration name="合并有序数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组/合并有序数组.js" working-dir="$PROJECT_DIR$/数组">
+      <method v="2" />
+    </configuration>
+    <configuration name="枚举.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/枚举.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型链.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/原型链和继承/原型链.js" working-dir="$PROJECT_DIR$/原型链和继承">
       <method v="2" />
     </configuration>
     <configuration name="特殊判断.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/特殊判断.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
@@ -169,19 +217,13 @@
     <configuration name="二分查找.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/二分查找.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="操作数比较.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价判断/操作数比较.js" working-dir="$PROJECT_DIR$/等价判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="开平方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/开平方.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
     <configuration name="说结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/说结果.js" working-dir="$PROJECT_DIR$/看代码说结果">
       <method v="2" />
     </configuration>
     <configuration name="判断一个变量是不是数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断一个变量是不是数组.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
     <configuration name="字符串转整数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/字符串转整数.js" working-dir="$PROJECT_DIR$/LeetCode">
@@ -193,10 +235,10 @@
     <configuration name="寻找重复数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/寻找重复数.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
-    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+    <configuration name="字符转日期.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期.js" working-dir="$PROJECT_DIR$/字符特性">
       <method v="2" />
     </configuration>
-    <configuration name="枚举.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/枚举.js" working-dir="$PROJECT_DIR$">
+    <configuration name="数组单个元素个数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组方法/数组单个元素个数.js" working-dir="$PROJECT_DIR$/数组方法">
       <method v="2" />
     </configuration>
     <configuration name="统计数组每个元素有多少个.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组方法/统计数组每个元素有多少个.js" working-dir="$PROJECT_DIR$/数组方法">
@@ -211,13 +253,7 @@
     <configuration name="字符转日期.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期.js" working-dir="$PROJECT_DIR$/字符特性">
       <method v="2" />
     </configuration>
-    <configuration name="看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看结果.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/LeetCode">
+    <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
     <configuration name="选择排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序和大小写/选择排序.js" working-dir="$PROJECT_DIR$/排序和大小写">
@@ -229,10 +265,10 @@
     <configuration name="提取结果判断回文.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/提取结果判断回文.js" working-dir="$PROJECT_DIR$/字符特性">
       <method v="2" />
     </configuration>
-    <configuration name="原型链.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/原型链和继承/原型链.js" working-dir="$PROJECT_DIR$/原型链和继承">
+    <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
-    <configuration name="数组单个元素个数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组方法/数组单个元素个数.js" working-dir="$PROJECT_DIR$/数组方法">
+    <configuration name="定时器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/定时器.js" working-dir="$PROJECT_DIR$/看代码说结果">
       <method v="2" />
     </configuration>
     <configuration name="杨辉三角.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/画图形/杨辉三角.js" working-dir="$PROJECT_DIR$/画图形">
@@ -247,52 +283,13 @@
     <configuration name="观察者模式.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/响应式原理/观察者模式.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="屏幕等比例放大.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/屏幕等比例放大.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="递归方法实现深拷贝.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/深拷贝和浅拷贝/递归方法实现深拷贝.js" working-dir="$PROJECT_DIR$/深拷贝和浅拷贝">
-      <method v="2" />
-    </configuration>
-    <configuration name="枚举.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/枚举.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="字符串转整数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/字符串转整数.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
-      <method v="2" />
-    </configuration>
-    <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/字符特性">
-      <method v="2" />
-    </configuration>
-    <configuration name="作用域看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/作用域，闭包/作用域看结果.js" working-dir="$PROJECT_DIR$/作用域，闭包">
-      <method v="2" />
-    </configuration>
-    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
-      <method v="2" />
-    </configuration>
-    <configuration name="原型链.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/原型链.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="函数柯里化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/函数柯里化.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="看结果基本题型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/看结果基本题型.js" working-dir="$PROJECT_DIR$/看代码说结果">
-      <method v="2" />
-    </configuration>
-    <configuration name="for循环打印.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/作用域，闭包/for循环打印.js" working-dir="$PROJECT_DIR$/作用域，闭包">
-      <method v="2" />
-    </configuration>
-    <configuration name="循环中setTimeout打印.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/作用域，闭包/循环中setTimeout打印.js" working-dir="$PROJECT_DIR$/作用域，闭包">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.for循环打印.js" />
-        <item itemvalue="Node.js.闭包异步每隔一秒打印.js" />
-        <item itemvalue="Node.js.循环中setTimeout打印.js" />
-        <item itemvalue="JavaScript Debug.lx.html" />
-        <item itemvalue="JavaScript Debug.0.5细线.html" />
+        <item itemvalue="JavaScript Debug.轮播图.html" />
+        <item itemvalue="JavaScript Debug.轮播图2.html" />
+        <item itemvalue="Node.js.矩阵螺旋输出.js" />
+        <item itemvalue="Node.js.字节架构.js" />
+        <item itemvalue="JavaScript Debug.两栏布局.html" />
       </list>
     </recent_temporary>
   </component>
@@ -462,12 +459,20 @@
       <workItem from="1626078476400" duration="1335000" />
       <workItem from="1626087748521" duration="1108000" />
       <workItem from="1626274521420" duration="3265000" />
-      <workItem from="1626420876649" duration="6137000" />
+      <workItem from="1626420876649" duration="6827000" />
+      <workItem from="1626572772452" duration="686000" />
+      <workItem from="1626870762742" duration="3798000" />
+      <workItem from="1626952298926" duration="1763000" />
+      <workItem from="1627106579906" duration="2768000" />
+      <workItem from="1627451957564" duration="6710000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="623" y="143" key="#apply_改变_this.js" timestamp="1624348844205">
@@ -482,77 +487,77 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622827042250" />
-    <state width="1894" height="127" key="GridCell.Tab.0.bottom" timestamp="1626426647988">
+    <state width="1894" height="127" key="GridCell.Tab.0.bottom" timestamp="1627455796398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626426647988" />
-    <state width="1894" height="127" key="GridCell.Tab.0.center" timestamp="1626426647988">
+    <state width="1894" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627455796398" />
+    <state width="1894" height="127" key="GridCell.Tab.0.center" timestamp="1627455796398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626426647988" />
-    <state width="1894" height="127" key="GridCell.Tab.0.left" timestamp="1626426647987">
+    <state width="1894" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627455796398" />
+    <state width="1894" height="127" key="GridCell.Tab.0.left" timestamp="1627455796398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626426647987" />
-    <state width="1894" height="127" key="GridCell.Tab.0.right" timestamp="1626426647988">
+    <state width="1894" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627455796398" />
+    <state width="1894" height="127" key="GridCell.Tab.0.right" timestamp="1627455796398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626426647988" />
-    <state width="1894" height="174" key="GridCell.Tab.1.bottom" timestamp="1625502095849">
+    <state width="1894" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627455796398" />
+    <state width="1894" height="174" key="GridCell.Tab.1.bottom" timestamp="1626574931185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.1.center" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931185" />
+    <state width="1894" height="174" key="GridCell.Tab.1.center" timestamp="1626574931185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.1.left" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931185" />
+    <state width="1894" height="174" key="GridCell.Tab.1.left" timestamp="1626574931185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.1.right" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931185" />
+    <state width="1894" height="174" key="GridCell.Tab.1.right" timestamp="1626574931185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.2.bottom" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931185" />
+    <state width="1894" height="174" key="GridCell.Tab.2.bottom" timestamp="1626574931185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.2.center" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931185" />
+    <state width="1894" height="174" key="GridCell.Tab.2.center" timestamp="1626574931185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.2.left" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931185" />
+    <state width="1894" height="174" key="GridCell.Tab.2.left" timestamp="1626574931185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.2.right" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931185" />
+    <state width="1894" height="174" key="GridCell.Tab.2.right" timestamp="1626574931185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.3.bottom" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931185" />
+    <state width="1894" height="174" key="GridCell.Tab.3.bottom" timestamp="1626574931186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.3.center" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931186" />
+    <state width="1894" height="174" key="GridCell.Tab.3.center" timestamp="1626574931186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.3.left" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931186" />
+    <state width="1894" height="174" key="GridCell.Tab.3.left" timestamp="1626574931186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
-    <state width="1894" height="174" key="GridCell.Tab.3.right" timestamp="1625502095849">
+    <state width="1894" height="174" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931186" />
+    <state width="1894" height="174" key="GridCell.Tab.3.right" timestamp="1626574931186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="174" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625502095849" />
+    <state width="1894" height="174" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626574931186" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1624780561062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624780561062" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1622779544947">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1627458212233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622779544947" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627458212233" />
   </component>
 </project>
