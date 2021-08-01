@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="wrap">
+        <div id="sidebar" style="height:200px;background:red;color:#fff;">固定宽度区</div>
+        <div id="content" style="height:200px;background:#000;color:#fff;">自适应区</div>
+    </div>
+</body>
+<style>
+    /*float方法*/
+    /*#sidebar {*/
+    /*    float: right; width: 300px;*/
+    /*}*/
+    /*#content {*/
+    /*    margin-right: 300px;*/
+    /*}*/
+
+    /*绝对定位方法*/
+    #wrap{
+        position:relative;
+    }
+    #content {
+        margin-right:300px;
+    }
+    #sidebar {
+        position:absolute;
+        width:300px;
+        right:0;
+        top:0;
+    }
+</style>
+</html>

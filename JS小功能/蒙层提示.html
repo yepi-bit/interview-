@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="div">点击除开div的区域可以弹出弹窗</div>
+        <div id="cover">
+        </div>
+    <div id="box">点击除开div和弹窗的区域可以关闭弹窗</div>
+</body>
+    <style lang="scss">
+        #div{
+            /*设置z-index属性必须设置position:relative或absolute*/
+            position:relative;
+            /*设置div位于遮罩的上方*/
+            z-index:2;
+            width:300px;
+            height:200px;
+            line-height: 200px;
+            text-align: center;
+            border-radius: 16px;
+            border:1px solid grey;
+        }
+        #cover{
+            position:fixed;
+            width:100%;
+            height:100%;
+            left:0;
+            top:0;
+            /*设置遮罩位于div的下方*/
+            z-index:1;
+        }
+        #box{
+            border:1px solid grey;
+            /*当弹窗显示时，屏幕滚动时，弹窗始终保持位置固定在屏幕正中，不随屏幕滚动而变化位置*/
+            position:fixed;
+            width:400px;
+            height:300px;
+            line-height: 300px;
+            text-align: center;
+            border-radius: 16px;
+            left:50%;
+            top:50%;
+            /*配合left:50%和top:50%属性使得浮出层的中心默认在屏幕正中，margin-top为height的一半，margin-left为width的一半*/
+            margin:-150px 0 0 -200px;
+            /*设置弹窗位于遮罩的上方*/
+            z-index:2;
+            /*开始时隐藏弹窗*/
+            display:none;
+        }
+    </style>
+    <script>
+        document.getElementById("cover").onclick = function() {
+            if (document.getElementById("box").style.display === "block") {
+                document.getElementById("box").style.display = "none";
+                document.getElementById("cover").style.background = "white";
+            }
+            else {
+                document.getElementById("box").style.display = "block";
+                document.getElementById("cover").style.background = "#aaa";
+            }
+        }
+
+    </script>
+</html>
