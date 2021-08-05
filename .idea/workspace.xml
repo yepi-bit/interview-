@@ -2,20 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f29d70a-8fc3-4ca8-8f51-e09c219734ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS位置布局/用float和绝对定位实现两栏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS位置布局/用table实现两栏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS小功能/秒换时间.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS小功能/蒙层提示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/JS数组交并集.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS位置布局/Grid三栏布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS位置布局/flex三栏布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS位置布局/左右浮动三栏布局.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS小功能/获取输入框焦点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS小功能/计数器.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS小功能/计算器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Promise/用Promise解决回调地狱.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/this指向/特殊指向.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/this指向/特殊指向题.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/集合转数组.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/看输出/原型输出.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/看输出/对象原型输出.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/百度下拉框.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS小功能/百度下拉框.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/轮播图.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS小功能/轮播图.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/轮播图2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS小功能/轮播图2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS位置布局/返回顶部按钮.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS小功能/返回顶部按钮.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS形状/九方格大转盘.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS小功能/九方格大转盘.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS形状/时钟.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS小功能/时钟.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图片懒加载.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS小功能/图片懒加载.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/看代码说结果/异步输出.js" beforeDir="false" afterPath="$PROJECT_DIR$/看输出/异步输出.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS位置布局/BFC.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS属性/BFC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS位置布局/after伪元素清除浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS属性/after伪元素清除浮动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS位置布局/flex1 详解.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS属性/flex1 详解.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS位置布局/两个inline-block间隔.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS属性/两个inline-block间隔.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS位置布局/清除浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS属性/清除浮动.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +34,8 @@
       <list>
         <option value="HTML4 File" />
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,30 +67,30 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStorm-2019.3.3\interview\this指向" />
+      <recent name="E:\WebStorm-2019.3.3\interview\CSS属性" />
       <recent name="E:\WebStorm-2019.3.3\interview\JS小功能" />
       <recent name="E:\WebStorm-2019.3.3\interview\看输出" />
       <recent name="E:\WebStorm-2019.3.3\interview\CSS水平垂直居中" />
-      <recent name="E:\WebStorm-2019.3.3\interview\响应式原理" />
-      <recent name="E:\WebStorm-2019.3.3\interview\CSS形状" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.蒙层提示.html">
+  <component name="RunManager" selected="JavaScript Debug.获取输入框焦点.html">
     <configuration name="CSS.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS特效/CSS.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="蒙层提示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/蒙层提示.html" useBuiltInWebServerPort="true">
+    <configuration name="计算器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/计算器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/九方格大转盘.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/九方格大转盘.html" useBuiltInWebServerPort="true">
+    <configuration name="获取输入框焦点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/获取输入框焦点.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="大风车.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/大风车.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="时钟.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/时钟.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="计算器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/计算器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/大转盘.html" useBuiltInWebServerPort="true">
@@ -101,10 +105,16 @@
     <configuration name="扫描.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/扫描.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="左右浮动三栏布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/左右浮动三栏布局.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="绝对居中.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/绝对居中.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="深拷贝.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/深拷贝和浅拷贝/深拷贝.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="骰子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/骰子.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="蒙层提示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/蒙层提示.html" useBuiltInWebServerPort="true">
@@ -119,9 +129,6 @@
     <configuration name="斜线缩放.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/斜线缩放.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="骰子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/骰子.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/轮播图.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -131,82 +138,19 @@
     <configuration name="骰子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/骰子.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/九方格大转盘.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="方形底部展开.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/方形底部展开.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="返回顶部按钮.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/返回顶部按钮.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="用float和绝对定位实现两栏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/用float和绝对定位实现两栏.html" useBuiltInWebServerPort="true">
+    <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/九方格大转盘.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="用table实现两栏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/用table实现两栏.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="JS数组交并集.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/JS数组交并集.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="秒换时间.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS小功能/秒换时间.js" working-dir="$PROJECT_DIR$/JS小功能">
-      <method v="2" />
-    </configuration>
-    <configuration name="特殊判断.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/特殊判断.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="箭头函数基本用法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/箭头函数/箭头函数基本用法.js" working-dir="$PROJECT_DIR$/箭头函数">
-      <method v="2" />
-    </configuration>
-    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="二分查找.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/二分查找.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="说结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/说结果.js" working-dir="$PROJECT_DIR$/看代码说结果">
-      <method v="2" />
-    </configuration>
-    <configuration name="判断一个变量是不是数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断一个变量是不是数组.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="操作数比较.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价判断/操作数比较.js" working-dir="$PROJECT_DIR$/等价判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="字符串转整数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/字符串转整数.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="操作数比较.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价判断/操作数比较.js" working-dir="$PROJECT_DIR$/等价判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="寻找重复数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/寻找重复数.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="字符转日期.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期.js" working-dir="$PROJECT_DIR$/字符特性">
-      <method v="2" />
-    </configuration>
-    <configuration name="数组单个元素个数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组方法/数组单个元素个数.js" working-dir="$PROJECT_DIR$/数组方法">
-      <method v="2" />
-    </configuration>
-    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
-      <method v="2" />
-    </configuration>
-    <configuration name="统计数组每个元素有多少个.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组方法/统计数组每个元素有多少个.js" working-dir="$PROJECT_DIR$/数组方法">
-      <method v="2" />
-    </configuration>
-    <configuration name="随机排列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序和大小写/随机排列.js" working-dir="$PROJECT_DIR$/排序和大小写">
-      <method v="2" />
-    </configuration>
-    <configuration name="迭代器和生成器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/迭代器和生成器.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="字符转日期.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期.js" working-dir="$PROJECT_DIR$/字符特性">
-      <method v="2" />
-    </configuration>
-    <configuration name="屏幕等比例放大.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/屏幕等比例放大.js" working-dir="$PROJECT_DIR$">
+    <configuration name="特殊指向.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/this指向/特殊指向.js" working-dir="$PROJECT_DIR$/this指向">
       <method v="2" />
     </configuration>
     <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
@@ -227,10 +171,19 @@
     <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
+    <configuration name="操作数比较.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价判断/操作数比较.js" working-dir="$PROJECT_DIR$/等价判断">
+      <method v="2" />
+    </configuration>
     <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/字符特性">
       <method v="2" />
     </configuration>
     <configuration name="定时器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/定时器.js" working-dir="$PROJECT_DIR$/看代码说结果">
+      <method v="2" />
+    </configuration>
+    <configuration name="箭头函数基本用法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/箭头函数/箭头函数基本用法.js" working-dir="$PROJECT_DIR$/箭头函数">
+      <method v="2" />
+    </configuration>
+    <configuration name="特殊指向题.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/this指向/特殊指向题.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="杨辉三角.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/画图形/杨辉三角.js" working-dir="$PROJECT_DIR$/画图形">
@@ -254,13 +207,22 @@
     <configuration name="看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看结果.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+      <method v="2" />
+    </configuration>
     <configuration name="枚举.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/枚举.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="字符串转整数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/字符串转整数.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
+    <configuration name="原型输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看输出/原型输出.js" working-dir="$PROJECT_DIR$/看输出">
+      <method v="2" />
+    </configuration>
     <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
+      <method v="2" />
+    </configuration>
+    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
       <method v="2" />
     </configuration>
     <configuration name="看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/看结果.js" working-dir="$PROJECT_DIR$/看代码说结果">
@@ -281,7 +243,13 @@
     <configuration name="看结果基本题型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/看结果基本题型.js" working-dir="$PROJECT_DIR$/看代码说结果">
       <method v="2" />
     </configuration>
+    <configuration name="寻找重复数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/寻找重复数.js" working-dir="$PROJECT_DIR$/LeetCode">
+      <method v="2" />
+    </configuration>
     <configuration name="判断是否存在重复元素.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/判断是否存在重复元素.js" working-dir="$PROJECT_DIR$/LeetCode">
+      <method v="2" />
+    </configuration>
+    <configuration name="对象原型输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看输出/对象原型输出.js" working-dir="$PROJECT_DIR$/看输出">
       <method v="2" />
     </configuration>
     <configuration name="合并有序数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组/合并有序数组.js" working-dir="$PROJECT_DIR$/数组">
@@ -293,13 +261,55 @@
     <configuration name="原型链.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/原型链和继承/原型链.js" working-dir="$PROJECT_DIR$/原型链和继承">
       <method v="2" />
     </configuration>
+    <configuration name="二分查找.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/二分查找.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="说结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/说结果.js" working-dir="$PROJECT_DIR$/看代码说结果">
+      <method v="2" />
+    </configuration>
+    <configuration name="判断一个变量是不是数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断一个变量是不是数组.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="操作数比较.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价判断/操作数比较.js" working-dir="$PROJECT_DIR$/等价判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/LeetCode">
+      <method v="2" />
+    </configuration>
+    <configuration name="字符转日期.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期.js" working-dir="$PROJECT_DIR$/字符特性">
+      <method v="2" />
+    </configuration>
+    <configuration name="数组单个元素个数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组方法/数组单个元素个数.js" working-dir="$PROJECT_DIR$/数组方法">
+      <method v="2" />
+    </configuration>
+    <configuration name="字符转日期和千分位.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期和千分位.js" working-dir="$PROJECT_DIR$/字符特性">
+      <method v="2" />
+    </configuration>
+    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
+      <method v="2" />
+    </configuration>
+    <configuration name="统计数组每个元素有多少个.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组方法/统计数组每个元素有多少个.js" working-dir="$PROJECT_DIR$/数组方法">
+      <method v="2" />
+    </configuration>
+    <configuration name="随机排列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序和大小写/随机排列.js" working-dir="$PROJECT_DIR$/排序和大小写">
+      <method v="2" />
+    </configuration>
+    <configuration name="迭代器和生成器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/迭代器和生成器.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="特殊判断.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/特殊判断.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="字符转日期.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期.js" working-dir="$PROJECT_DIR$/字符特性">
+      <method v="2" />
+    </configuration>
+    <configuration name="屏幕等比例放大.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/屏幕等比例放大.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.蒙层提示.html" />
-        <item itemvalue="Node.js.JS数组交并集.js" />
-        <item itemvalue="JavaScript Debug.用table实现两栏.html" />
-        <item itemvalue="JavaScript Debug.用float和绝对定位实现两栏.html" />
-        <item itemvalue="Node.js.秒换时间.js" />
+        <item itemvalue="JavaScript Debug.获取输入框焦点.html" />
+        <item itemvalue="Node.js.特殊指向.js" />
       </list>
     </recent_temporary>
   </component>
@@ -478,6 +488,9 @@
       <workItem from="1627459259451" duration="4000" />
       <workItem from="1627460968974" duration="3002000" />
       <workItem from="1627799935081" duration="6082000" />
+      <workItem from="1628048231630" duration="4835000" />
+      <workItem from="1628159783580" duration="6070000" />
+      <workItem from="1628172157878" duration="1044000" />
     </task>
     <servers />
   </component>
@@ -500,22 +513,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622827042250" />
-    <state width="1894" height="127" key="GridCell.Tab.0.bottom" timestamp="1627813881094">
+    <state width="1894" height="127" key="GridCell.Tab.0.bottom" timestamp="1628171106316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627813881094" />
-    <state width="1894" height="127" key="GridCell.Tab.0.center" timestamp="1627813881094">
+    <state width="1894" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628171106316" />
+    <state width="1894" height="127" key="GridCell.Tab.0.center" timestamp="1628171106315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627813881094" />
-    <state width="1894" height="127" key="GridCell.Tab.0.left" timestamp="1627813881094">
+    <state width="1894" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628171106315" />
+    <state width="1894" height="127" key="GridCell.Tab.0.left" timestamp="1628171106315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627813881094" />
-    <state width="1894" height="127" key="GridCell.Tab.0.right" timestamp="1627813881094">
+    <state width="1894" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628171106315" />
+    <state width="1894" height="127" key="GridCell.Tab.0.right" timestamp="1628171106316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627813881094" />
+    <state width="1894" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628171106316" />
     <state width="1894" height="174" key="GridCell.Tab.1.bottom" timestamp="1626574931185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -568,10 +581,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1627461065939" />
-    <state x="532" y="237" key="run.anything.popup" timestamp="1624780561062">
+    <state x="532" y="237" key="run.anything.popup" timestamp="1628170328653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624780561062" />
+    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1628170328653" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1627458212233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

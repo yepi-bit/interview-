@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js计算器</title>
+</head>
+<body>
+<h1 class="h1">计算器</h1>
+<div class="box">
+    <form name="calculator">
+        <input type="button" id="clear" class="btn other" value="C">
+        <input type="text" id="display">
+        <br/>
+        <input type="button" class="btn number" value="7" onclick="get(this.value);">
+        <input type="button" class="btn number" value="8" onclick="get(this.value);">
+        <input type="button" class="btn number" value="9" onclick="get(this.value);">
+        <input type="button" class="btn operator" value="+" onclick="get(this.value);">
+        <br/>
+        <input type="button" class="btn number" value="4" onclick="get(this.value);">
+        <input type="button" class="btn number" value="5" onclick="get(this.value);">
+        <input type="button" class="btn number" value="6" onclick="get(this.value);">
+        <input type="button" class="btn operator" value="*" onclick="get(this.value);">
+        <br/>
+        <input type="button" class="btn number" value="1" onclick="get(this.value);">
+        <input type="button" class="btn number" value="2" onclick="get(this.value);">
+        <input type="button" class="btn number" value="3" onclick="get(this.value);">
+        <input type="button" class="btn operator" value="-" onclick="get(this.value);">
+        <br/>
+        <input type="button" class="btn number" value="0" onclick="get(this.value);">
+        <input type="button" class="btn operator" value="." onclick="get(this.value);">
+        <input type="button" class="btn operator" value="/" onclick="get(this.value);">
+        <input type="button" class="btn other" value="=" onclick="calculates();">
+    </form>
+</div>
+</body>
+<script>
+    //清空
+    document.getElementById("clear").addEventListener("click",function(){
+        document.getElementById("display").value = 0;
+    });
+    //运算
+    function get(value) {
+        document.getElementById("display").value += value;
+    }
+    //结果
+    function calculates() {
+        let result = 0;
+        result = document.getElementById("display").value;
+        document.getElementById("display").value = eval(result);
+    }
+</script>
+<style>
+    .h1{
+        position: relative;
+        color:blueviolet;
+        font-size:50px;
+        text-align: center;
+        top:50px;
+    }
+    .box{
+        width:500px;
+        position: relative;
+        top: 100px;
+        left:50%;
+        margin-left: -250px;
+        text-align: center;
+        background: #495678;
+        padding:80px 0;
+        border-radius: 20px;
+        box-shadow: 4px 4px #3d4a65;
+    }
+    .btn{
+        background:rgba(155,112,203,0.8);
+        border: 1px solid #7abcff;
+        cursor:pointer;
+        outline:none;
+        font-size:30px;
+        margin:10px 15px;
+        height: 70px;
+        width: 70px;
+        box-shadow: 0 5px #1a1313de;
+    }
+    .btn:active{
+        transform: translateY(2px);
+    }
+    .btn:first-child{
+        margin-left:-300px;
+    }
+    #display{
+        overflow: hidden;
+        box-sizing: border-box;
+        padding-right:18px;
+        text-align: right;
+        outline: none;
+        border:1px solid #4caf50;
+        color:yellow;
+        font-size: 30px;
+        width:280px;
+        position: absolute;
+        height: 50px;
+        top:95px;
+        right:55px;
+        background-color: #4caf50;
+    }
+    #display,.btn,.box{
+        border-radius:35px;
+    }
+    .operator{
+        background:darkmagenta;
+    }
+    .other{
+        background:peachpuff;
+    }
+</style>
+</html>
