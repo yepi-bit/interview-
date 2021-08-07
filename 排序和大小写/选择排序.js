@@ -10,5 +10,5 @@ var sortArray = function(nums) {
     }
     return nums
 };
-sortArray(nums)
+sortArray(nums);
 console.log(nums);

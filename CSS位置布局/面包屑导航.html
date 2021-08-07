@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="breadcrumb">
+        <a>编程</a>
+        <a>前端</a>
+        <a>教程</a>
+    </div>
+</body>
+    <style>
+        .breadcrumb {
+            font-size: 1.6rem;
+            color: black;
+        }
+        .breadcrumb a:first-child {
+            color: #82fcfd;
+        }
+        .breadcrumb a:first-child::before {
+            content: " » ";
+        }
+        .breadcrumb a::after {
+            content: " /";
+            color: #ef6eae;
+        }
+        .breadcrumb a:last-child::after {
+            content: "";
+        }
+    </style>
+</html>

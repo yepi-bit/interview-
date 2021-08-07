@@ -7,10 +7,12 @@
 <body>
 <script>
     var str = 'AaaBbCccDdddE';
-    str2 = Array.from(new Set(str)).join('')
+    str2 = Array.from(new Set(str)).join(''); // ES6去重
     console.log(str2);
+
     str3 = [...new Set(str.split(''))]
     console.log(str3);
+
     str4 = str2.split('').reverse().join('')
     console.log(str4);
     //length

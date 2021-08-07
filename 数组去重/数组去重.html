@@ -8,19 +8,19 @@
 <script>
     //ES6 Set去重
     var arr = [1, 2, 3, 2, 1, 3, 4];
-    console.log(new Set(arr))//打印结果：Set(3) {1, 2, 3}
+    console.log(new Set(arr));  //打印结果：Set(3) {1, 2, 3}
 
     //filter过滤函数去重
     var arr = [1, 2, 3, 1, 2, 3, 4];
-    arr2 = arr.filter((v, i, arr) => arr.indexOf(v) === i)
-    console.log(arr2)
+    arr2 = arr.filter((v, i, arr) => arr.indexOf(v) === i);
+    console.log(arr2);
 
     //遍历数组法
     function f1(arr) {
         var arr1 = []; //一个新的临时数组
         //遍历当前数组
         for (var i = 0; i < arr.length; i++) {
-            if (arr1.indexOf(arr[i]) == -1) arr1.push(arr[i]);
+            if (arr1.indexOf(arr[i]) === -1) arr1.push(arr[i]);
             //如果当前数组的第i已经保存进了临时数组，那么跳过，
             //否则把当前项push到临时数组里面
         }
