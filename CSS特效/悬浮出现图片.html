@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style type="text/css">
+    .pic{
+        position:relative;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #7abcff;
+        margin: 120px auto;
+    }
+    .pic img{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 0;
+        top: 0;
+        transition:all 0.5s linear;
+        transform:rotate(0deg);
+        opacity: 0
+    }
+    .pic:hover img{
+        opacity: 1;
+        transform:rotate(360deg);
+    }
+</style>
+<body>
+<div class="pic">
+    鼠标移过来看看
+    <img src="https://ps.ssl.qhimg.com/t013f5efcfb02eba705.jpg"/>
+</div>
+</body>
+</html>
