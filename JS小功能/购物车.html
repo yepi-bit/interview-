@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <table id="jsTrolley">
+        <thead>
+        <tr>
+            <th>名称</th>
+            <th>价格</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>产品1</td>
+            <td>10.00</td>
+            <td><a href="javascript:void(0);">删除</a></td>
+        </tr>
+        <tr>
+            <td>产品2</td>
+            <td>30.20</td>
+            <td><a href="javascript:void(0);">删除</a></td>
+        </tr>
+        <tr>
+            <td>产品3</td>
+            <td>20.50</td>
+            <td><a href="javascript:void(0);">删除</a></td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <th>总计</th>
+            <td colspan="2">60.70(3件商品)</td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+<script>
+    function add(items) {
+        // items [{name, price}]
+        // 1.获取表单父节点和总计
+        var tbody = getTbody();
+        var tfoot = getTfoot();
+        // 2.获取初始数据
+        var num = tbody.children.length;
+        var total = tfoot.innerText.match(/^.*\t(\d*\.?\d*)\(.*\)$/)[1];
+        var price = parseFloat(total);
+        // 3.创建子节点
+        // 产品行
+        var tr = "";
+        for (let i in items) {
+            price = parseFloat((price + items[i].price).toFixed(2));
+            tr += `<tr>
+            <td>${items[i].name}</td>
+            <td>${items[i].price.toFixed(2)}</td>
+            <td><a href="javascript:void(0);">删除</a></td>
+        </tr>`;
+            num++;
+        }
+        // 总计行
+        var tf = `<tr><th>总计</th><td colspan="2">${price.toFixed(
+            2
+        )}(${num}件商品)</td></tr>`;
+        // 4.将新增的数据添加进去
+        tfoot.innerHTML = tf;
+        tbody.innerHTML = tbody.innerHTML + tr;
+    }
+
+    // 从列表中删除对应行
+    function bind() {
+        // 1.获取表单父节点和总计
+        var tbody = getTbody();
+        var tfoot = getTfoot();
+        // 2.通过代理模式添加点击事件
+        tbody.addEventListener("click", (event) => {
+            var num = tbody.children.length;
+            if (event.target.tagName == "A") {
+                // 获取数据
+                var price = event.target.parentElement.parentElement.innerText.match(
+                    /^.*\t(\d*\.?\d*)\t.*$/
+                )[1];
+                // 修改数据
+                var total = tfoot.innerText.match(/^.*\t(\d*\.?\d*)\(.*\)$/)[1];
+                price = parseFloat((parseFloat(total) - price).toFixed(2));
+                var tf = `
+                <tr><th>总计</th><td colspan="2">${price.toFixed(2)}(${
+                    num - 1
+                }件商品)</td></tr>
+            `;
+                tfoot.innerHTML = tf;
+                // 删除节点
+                event.target.parentElement.parentElement.remove();
+            }
+        });
+    }
+
+    // 获取表单父节点
+    function getTbody() {
+        return document.getElementById("jsTrolley").getElementsByTagName("tbody")[0];
+    }
+
+    // 获取总计信息
+    function getTfoot() {
+        return document.getElementsByTagName("tfoot")[0];
+    }
+</script>
+<style>
+    body,
+    html {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        color: #000000;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+    }
+    thead {
+        background: #3d444c;
+        color: #ffffff;
+    }
+    td,
+    th {
+        border: 1px solid #e1e1e1;
+        padding: 0;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+</style>
+</html>
