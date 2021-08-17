@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <input placeholder="请输入关键字"><br>
+            <button>编辑</button>
+            <button>保存</button>
+    </div>
+</body>
+<script>
+    const input = document.querySelector("input");
+    const btn = document.querySelectorAll("button");
+    btn[0].style.visibility = 'hidden';
+    input.focus();
+    btn[1].onclick = function () {
+        btn[0].style.visibility = 'visiable';
+        input.style.visibility = 'hidden'
+    }
+    btn[0].onclick = function () {
+        btn[1].style.visibility = 'hidden';
+        input.style.visibility = 'visiable'
+    }
+
+</script>
+    <style>
+        div {
+            margin: 50px;
+        }
+        input {
+            width: 730px;
+            height: 26px;
+        }
+        button {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+    </style>
+</html>
