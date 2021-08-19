@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>翻书效果</title>
+</head>
+<body>
+<div class="book">
+    <div id="page1">
+        <div class="page-back">
+            <img src="https://ps.ssl.qhimg.com/t015f590bb00aa069f4.jpg" alt="">
+        </div>
+        <div class="page-front">
+            <img src="https://ps.ssl.qhimg.com/t01621d02789bf17400.jpg" alt="">
+        </div>
+    </div>
+    <div id="page2">
+        <div class="page-back">
+            <img src="https://ps.ssl.qhimg.com/t015f590bb00aa069f4.jpg" alt="">
+        </div>
+        <div class="page-front">
+            <img src="https://ps.ssl.qhimg.com/t01621d02789bf17400.jpg" alt="">
+        </div>
+    </div>
+    <div id="page3">
+        <div class="page-back">
+            <img src="https://ps.ssl.qhimg.com/t015f590bb00aa069f4.jpg" alt="">
+        </div>
+        <div class="page-front">
+            <img src="https://ps.ssl.qhimg.com/t01621d02789bf17400.jpg" alt="">
+        </div>
+    </div>
+</div>
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: #666;
+    }
+    .book {
+        width: 420px;
+        height: 420px;
+        margin: 150px auto;
+        position: relative;
+        transform-style: preserve-3d;
+        /*近大远小的效果*/
+        perspective: 1200px;
+    }
+    #page1, #page2, #page3 {
+        transform-origin: left;
+        transform-style: preserve-3d;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 400px;
+        height: 400px;
+    }
+    #page1 {
+        z-index: 4;
+    }
+    #page2 {
+        z-index: 3;
+    }
+    #page3 {
+        z-index: 2;
+    }
+    .page-front, .page-back {
+        width: 420px;
+        height: 420px;
+        position: absolute;
+        box-sizing: border-box;
+    }
+    .page-front {
+        text-align: center;
+        font: bold 36px/400px arial;
+        border: 10px solid #fff;
+        backface-visibility: hidden;
+    }
+    .page-back {
+        background-color: #f0f0f0;
+        border: 10px solid #fff;
+    }
+</style>
+<script>
+    var currentIndex = 0;
+    var pages = document.querySelectorAll("[id^='page']");
+    var pageNum = pages.length;
+    var bookDom = document.querySelector(".book");
+    bookDom.onclick = function(ev) {
+        currentIndex++;
+        if(currentIndex > pages.length-1) {
+            for(var i = 0; i < pageNum; i++) {
+                pages[i].style.transform = "rotateY(0deg)";
+            }
+        }else{
+            //单击翻页
+            pages[currentIndex].style.transition = "2s";
+            pages[currentIndex].style.transform = "rotateY(-135deg)";
+        }
+    }
+</script>
+</html>

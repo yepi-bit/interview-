@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .form {
+        width: 600px;
+        margin: 100px auto;
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        border-top: 1px solid slateblue;
+        border-bottom: 1px solid slateblue;
+    }
+    .cols-1 {
+        flex: 1;
+    }
+    .cols-2 {
+        flex: 2;
+    }
+    .cell {
+        border-left: 1px solid salmon;
+        padding: 10px 6px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .cell:last-child {
+        border-right: 1px solid salmon;
+    }
+    .text {
+        width: 228px;
+        height: 26px;
+        padding: 4px;
+    }
+    .btn {
+        height: 26px;
+        width: 100px;
+    }
+</style>
+<body>
+    <div class="form">
+        <div class="row">
+            <div class="cell cols-1">请输入手机号码</div>
+
+            <div class="cell cols-2">
+                <input type="text" class="text" id="phone">
+            </div>
+            <div class="cell cols-1">
+                <input type="button" class="btn" value="获取验证码" id="getCode" disabled>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var thePhone = document.getElementById("phone");
+    var getCodeBtn = document.getElementById("getCode");
+    thePhone.oninput = function () {
+        var phone = thePhone.value;
+        if(/^1[3456789]d{9}$/.test(phone)) {
+            getCodeBtn.disabled = true;
+        } else {
+            getCodeBtn.disabled = false;
+        }
+    };
+    getCodeBtn.onclick = function () {
+        getCodeBtn.disabled = true;
+        thePhone.disabled = true;
+        var i = 59;
+        getCodeBtn.value = '已发送' + i;
+
+        var timer = window.setInterval(function () {
+            i--;
+            getCodeBtn.value = '已发送' + i;
+            if(i === 0) {
+                alert('请重新获取验证码')
+                window.clearInterval(timer);
+                getCodeBtn.value = '获取验证码';
+                thePhone.disabled = false;
+                getCodeBtn.disabled = false;
+            }
+        },1000);
+    }
+</script>
+</html>

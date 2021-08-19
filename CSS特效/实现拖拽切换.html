@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="g-outer">
+    <div class="g-inner">
+        <div class="g-resize"></div>
+    </div>
+</div>
+</body>
+<style>
+    .g-outer {
+        position: relative;
+        width: 650px;
+        height: 340px;
+        background-image: url('http://attach.bbs.miui.com/forum/201303/23/140444e932fxfqqg1sxmqu.jpg');
+        overflow: hidden;
+    }
+
+    .g-inner {
+        background: url('http://5b0988e595225.cdn.sohucs.com/images/20171019/86077f45268841a197809c3fe666f71e.jpeg');
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 0;
+        max-width: 650px;
+        height: 340px;
+    }
+    .g-inner:before {
+        content: "↔";
+        position: absolute;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        right: 0;
+        height: 100%;
+        line-height: 340px;
+    }
+    .g-resize {
+        position: relative;
+        resize: horizontal;
+        overflow: scroll;
+        width: 0;
+        height: 340px;
+        max-width: 650px;
+        min-width: 15px;
+        animation: opacityChange 3s infinite alternate linear;
+    }
+    @keyframes opacityChange {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+</style>
+</html>
