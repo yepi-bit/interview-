@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页头部</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    div {
+        display: block;
+    }
+
+    #header {
+        width: 960px;
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        border-top: 0;
+        border-bottom: 1px solid black;
+        padding-bottom: 0;
+        display: block;
+        height: 60px;
+        z-index: 999;
+    }
+
+    a {
+        color: cornflowerblue;
+        text-decoration: none;
+        transition: all .3s ease;
+    }
+
+    a:hover {
+        color: darkmagenta;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    #title {
+        display: flex;
+    }
+
+    #search {
+        margin-left: 20px;
+        width: 280px;
+        border: 1px solid cornflowerblue;
+        margin-top: 10px;
+        height: inherit;
+        line-height: inherit;
+    }
+
+    #select {
+        height: inherit;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #selectMore {
+        height: inherit;
+        float: left;
+    }
+
+    #selectMore>li {
+        position: relative;
+        float: left;
+    }
+
+    #selectMore>li>a {
+        float: left;
+        font-size: 17px;
+        border-right: 0;
+        font-weight: 400;
+        text-align: center;
+        width: auto;
+        padding: 19px 16px;
+    }
+
+    #selectMore>li>a:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        bottom: 0;
+        left: 0;
+        background-color: darkmagenta;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: .4s ease-in-out;
+    }
+
+    #selectMore>li>a:hover:after {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+</style>
+
+<body>
+<div id="header">
+    <div class="box">
+        <div id="title">
+            <h1>
+                <a href="#">Yepi-bit</a>
+            </h1>
+            <input id="search" placeholder="全站搜索文章">
+        </div>
+        <div id="select">
+            <ul id="selectMore">
+                <li>
+                    <a href="#">博客园</a>
+                </li>
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">新随笔</a>
+                </li>
+                <li>
+                    <a href="#">联系</a>
+                </li>
+                <li>
+                    <a href="#">订阅</a>
+                </li>
+                <li>
+                    <a href="#">管理</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
