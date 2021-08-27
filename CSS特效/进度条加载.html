@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .circle {
+        fill: none;
+        stroke: #7C83FD;
+        stroke-width: 8;
+        stroke-dasharray: 314;
+        stroke-dashoffset: 314;
+        animation: circle 3s infinite;
+        /*调正位置*/
+        transform: rotate(-90deg);
+        transform-origin: center;
+        transform-box: fill-box;
+        transition: all 1s;
+    }
+    @keyframes circle {
+        100% {
+            stroke-dashoffset: 0;
+        }
+    }
+    .text {
+        font-size: 20px;
+    }
+    .percent {
+        font-size: 10px;
+    }
+</style>
+<body>
+    <svg>
+        <circle class="circle" r="50" cy="80" cx="80" fill="none" stroke-width="8" stroke="#7C83FD"></circle>
+        <text x="80" y="85" fill="#6b778c" text-anchor="middle">
+            <tspan class="text">0</tspan><tspan class="percent">%</tspan>
+        </text>
+    </svg>
+</body>
+<script>
+    let progressLen = 314;
+    const textDom = document.getElementsByClassName('text')[0];
+    const circleDom = document.getElementsByClassName('circle')[0];
+
+    setPercent = (num) => {
+        if (num > 100) return;
+
+        circleDom.style['stroke-dashoffset'] = progressLen - (progressLen / 100) * num;
+        textDom.innerHTML = num;
+    };
+    let i = 0;
+    setInterval(() => {
+        i += Math.floor(Math.random() * 5);
+        if (i >= 100)i = 100;
+        setPercent(i);
+    }, 250)
+</script>
+</html>

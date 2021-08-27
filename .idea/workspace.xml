@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f29d70a-8fc3-4ca8-8f51-e09c219734ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS位置布局/首页头部组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS形状/按钮hover缩放.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS形状/输入框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/JS实现翻牌时钟.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/伸缩式导航栏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/分页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/导航栏滑块.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/展开卡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/搜索框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/曲边导航栏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/汉堡菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/登录框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS炫酷组件/轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/圆环加载中.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/悬浮球进度加载.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS特效/进度条加载.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5新增数组方法/every.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5新增数组方法/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5新增数组方法/forEach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5新增数组方法/indexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5新增数组方法/lastIndexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5新增数组方法/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5新增数组方法/reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5新增数组方法/reduceRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ES5新增数组方法/some.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS特效/实现拖拽切换.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS特效/实现拖拽切换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS特效/纯CSS实现title属性hover效果.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS特效/实现顶部出现小提示框效果.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +42,7 @@
         <option value="HTML4 File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -60,26 +82,23 @@
       <recent name="E:\WebStorm-2019.3.3\interview\CSS属性" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.CSS.html">
-    <configuration name="CSS3D动画.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/CSS3D动画.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.导航栏滑块.html">
     <configuration name="CSS.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/practice/CSS特效/CSS.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="实现顶部出现小提示框效果.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/实现顶部出现小提示框效果.html" useBuiltInWebServerPort="true">
+    <configuration name="JS实现翻牌时钟.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/JS实现翻牌时钟.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="方形底部展开.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/方形底部展开.html" useBuiltInWebServerPort="true">
+    <configuration name="展开卡.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/展开卡.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="深拷贝.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/深拷贝和浅拷贝/深拷贝.html" useBuiltInWebServerPort="true">
+    <configuration name="搜索框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/搜索框.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="输入框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/输入框.html" useBuiltInWebServerPort="true">
+    <configuration name="伸缩式导航栏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/伸缩式导航栏.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="悬停放大图片.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/悬停放大图片.html" useBuiltInWebServerPort="true">
+    <configuration name="导航栏滑块.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/导航栏滑块.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="编辑输入框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/编辑输入框.html" useBuiltInWebServerPort="true">
@@ -88,19 +107,19 @@
     <configuration name="绝对居中.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/绝对居中.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="登录框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/登录框.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="蒙层提示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/蒙层提示.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="时钟.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/时钟.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="首页头部组件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/首页头部组件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="蒙层更换头像.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/蒙层更换头像.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="文档写入.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/文档写入.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="返回顶部按钮.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/返回顶部按钮.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/大转盘.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/九方格大转盘.html" useBuiltInWebServerPort="true">
@@ -109,40 +128,64 @@
     <configuration name="九宫格布局.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/九宫格布局.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="汉堡菜单.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/汉堡菜单.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/九方格大转盘.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="倒计时.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/倒计时.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="输入框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/输入框.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="切角、伪类、渐变、旋转实现.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/切角、伪类、渐变、旋转实现.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="悬浮出现图片.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/悬浮出现图片.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="蒙层更换头像.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/蒙层更换头像.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="输入框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/输入框.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="绝对居中.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/绝对居中.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="骰子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/骰子.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="蒙层更换头像.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/蒙层更换头像.html" useBuiltInWebServerPort="true">
+    <configuration name="输入框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/输入框.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="蒙层提示.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/蒙层提示.html" useBuiltInWebServerPort="true">
+    <configuration name="分页.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/分页.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="切角、伪类、渐变、旋转实现.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/切角、伪类、渐变、旋转实现.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="方形底部展开.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/方形底部展开.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="输入框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/输入框.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="返回顶部按钮.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/返回顶部按钮.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="绝对居中.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/绝对居中.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="数组去重.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practice/数组去重.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="计算器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/计算器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="骰子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/骰子.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="输入框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/输入框.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="蒙层更换头像.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/蒙层更换头像.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="瀑布流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/瀑布流.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/轮播图.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="文档写入.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/文档写入.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="计算器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/计算器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="方形底部展开.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/方形底部展开.html" useBuiltInWebServerPort="true">
@@ -151,13 +194,13 @@
     <configuration name="获取输入框焦点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/获取输入框焦点.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="斜线缩放.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/斜线缩放.html" useBuiltInWebServerPort="true">
+    <configuration name="输入框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/输入框.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="骰子.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/骰子.html" useBuiltInWebServerPort="true">
+    <configuration name="瀑布流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/瀑布流.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="计算器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/计算器.html" useBuiltInWebServerPort="true">
+    <configuration name="圆环加载中.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/圆环加载中.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="动态画圆.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/动态画圆.html" useBuiltInWebServerPort="true">
@@ -166,10 +209,13 @@
     <configuration name="三角形.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/三角形.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="悬浮出现图片.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/悬浮出现图片.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="方形底部展开.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/方形底部展开.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="时钟.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/时钟.html" useBuiltInWebServerPort="true">
+    <configuration name="悬浮出现图片.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/悬浮出现图片.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="大风车.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/大风车.html" useBuiltInWebServerPort="true">
@@ -184,7 +230,13 @@
     <configuration name="购物车.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/购物车.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="方形底部展开.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/方形底部展开.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="大风车.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/大风车.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="斜线缩放.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/斜线缩放.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="扫描.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/扫描.html" useBuiltInWebServerPort="true">
@@ -193,91 +245,46 @@
     <configuration name="轮播图.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/轮播图.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="悬浮出现图片.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/悬浮出现图片.html" useBuiltInWebServerPort="true">
+    <configuration name="悬浮球进度加载.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/悬浮球进度加载.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/九方格大转盘.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="九方格大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/九方格大转盘.html" useBuiltInWebServerPort="true">
+    <configuration name="大转盘.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/大转盘.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="计算器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/JS小功能/计算器.html" useBuiltInWebServerPort="true">
+    <configuration name="悬浮球进度加载.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/悬浮球进度加载.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="瀑布流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS位置布局/瀑布流.html" useBuiltInWebServerPort="true">
+    <configuration name="深拷贝.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/深拷贝和浅拷贝/深拷贝.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="方形底部展开.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS形状/方形底部展开.html" useBuiltInWebServerPort="true">
+    <configuration name="登录框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS炫酷组件/登录框.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="loading效果.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/loading效果.html" useBuiltInWebServerPort="true">
+    <configuration name="蒙层更换头像.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/蒙层更换头像.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="提取结果判断回文.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/提取结果判断回文.js" working-dir="$PROJECT_DIR$/字符特性">
+    <configuration name="悬停放大图片.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/interview/CSS特效/悬停放大图片.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="去重合并.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组去重/去重合并.js" working-dir="$PROJECT_DIR$/数组去重">
+    <configuration name="迭代器和生成器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/迭代器和生成器.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="特殊指向题.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/this指向/特殊指向题.js" working-dir="$PROJECT_DIR$">
+    <configuration name="枚举.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/枚举.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
-    <configuration name="原型链.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/原型链和继承/原型链.js" working-dir="$PROJECT_DIR$/原型链和继承">
-      <method v="2" />
-    </configuration>
-    <configuration name="特殊判断.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/特殊判断.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
-      <method v="2" />
-    </configuration>
-    <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="杨辉三角.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/画图形/杨辉三角.js" working-dir="$PROJECT_DIR$/画图形">
-      <method v="2" />
-    </configuration>
-    <configuration name="屏幕等比例放大.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/屏幕等比例放大.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="函数柯里化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/函数柯里化.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="作用域看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/作用域，闭包/作用域看结果.js" working-dir="$PROJECT_DIR$/作用域，闭包">
-      <method v="2" />
-    </configuration>
-    <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="合并有序数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组/合并有序数组.js" working-dir="$PROJECT_DIR$/数组">
-      <method v="2" />
-    </configuration>
-    <configuration name="枚举.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/枚举.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="枚举.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/枚举.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <configuration name="对象原型输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看输出/对象原型输出.js" working-dir="$PROJECT_DIR$/看输出">
       <method v="2" />
     </configuration>
-    <configuration name="判断一个变量是不是数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断一个变量是不是数组.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
-      <method v="2" />
-    </configuration>
-    <configuration name="箭头函数基本用法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/箭头函数/箭头函数基本用法.js" working-dir="$PROJECT_DIR$/箭头函数">
-      <method v="2" />
-    </configuration>
-    <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/字符特性">
-      <method v="2" />
-    </configuration>
-    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
-      <method v="2" />
-    </configuration>
     <configuration name="看结果基本题型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/看结果基本题型.js" working-dir="$PROJECT_DIR$/看代码说结果">
+      <method v="2" />
+    </configuration>
+    <configuration name="字符串转整数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/字符串转整数.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
     <configuration name="看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看结果.js" working-dir="$PROJECT_DIR$">
@@ -286,40 +293,46 @@
     <configuration name="操作数比较.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价判断/操作数比较.js" working-dir="$PROJECT_DIR$/等价判断">
       <method v="2" />
     </configuration>
-    <configuration name="操作数比较.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价判断/操作数比较.js" working-dir="$PROJECT_DIR$/等价判断">
+    <configuration name="哔哩看作用域.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/作用域，闭包/哔哩看作用域.js" working-dir="$PROJECT_DIR$/作用域，闭包">
       <method v="2" />
     </configuration>
-    <configuration name="随机排列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序和大小写/随机排列.js" working-dir="$PROJECT_DIR$/排序和大小写">
-      <method v="2" />
-    </configuration>
-    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
+    <configuration name="选择排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序和大小写/选择排序.js" working-dir="$PROJECT_DIR$/排序和大小写">
       <method v="2" />
     </configuration>
     <configuration name="字符转日期.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期.js" working-dir="$PROJECT_DIR$/字符特性">
       <method v="2" />
     </configuration>
-    <configuration name="哔哩看作用域.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/作用域，闭包/哔哩看作用域.js" working-dir="$PROJECT_DIR$/作用域，闭包">
+    <configuration name="操作数比较.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价判断/操作数比较.js" working-dir="$PROJECT_DIR$/等价判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="特殊指向题.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/this指向/特殊指向题.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="寻找重复数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/寻找重复数.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
+    <configuration name="节流实现.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS代码/节流实现.js" working-dir="$PROJECT_DIR$/JS代码">
+      <method v="2" />
+    </configuration>
     <configuration name="字符转日期和千分位.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期和千分位.js" working-dir="$PROJECT_DIR$/字符特性">
-      <method v="2" />
-    </configuration>
-    <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="二分查找.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/二分查找.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="迭代器和生成器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/迭代器和生成器.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="说结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/说结果.js" working-dir="$PROJECT_DIR$/看代码说结果">
       <method v="2" />
     </configuration>
+    <configuration name="日期之间差数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/日期之间差数.js" working-dir="$PROJECT_DIR$/LeetCode">
+      <method v="2" />
+    </configuration>
+    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="函数柯里化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/函数柯里化.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="查找算法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序和大小写/查找算法.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="二分查找.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/二分查找.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="看结果.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/看结果.js" working-dir="$PROJECT_DIR$/看代码说结果">
@@ -328,13 +341,13 @@
     <configuration name="两数之和.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/两数之和.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
-    <configuration name="矩阵螺旋输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/矩阵螺旋输出.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="选择排序.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/排序和大小写/选择排序.js" working-dir="$PROJECT_DIR$/排序和大小写">
-      <method v="2" />
-    </configuration>
     <configuration name="定时器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看代码说结果/定时器.js" working-dir="$PROJECT_DIR$/看代码说结果">
+      <method v="2" />
+    </configuration>
+    <configuration name="去重合并.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组去重/去重合并.js" working-dir="$PROJECT_DIR$/数组去重">
+      <method v="2" />
+    </configuration>
+    <configuration name="原型输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看输出/原型输出.js" working-dir="$PROJECT_DIR$/看输出">
       <method v="2" />
     </configuration>
     <configuration name="字符转日期.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/字符转日期.js" working-dir="$PROJECT_DIR$/字符特性">
@@ -346,13 +359,13 @@
     <configuration name="数组单个元素个数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组方法/数组单个元素个数.js" working-dir="$PROJECT_DIR$/数组方法">
       <method v="2" />
     </configuration>
-    <configuration name="字符串转整数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/字符串转整数.js" working-dir="$PROJECT_DIR$/LeetCode">
-      <method v="2" />
-    </configuration>
-    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
-      <method v="2" />
-    </configuration>
     <configuration name="继承.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/继承.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
+      <method v="2" />
+    </configuration>
+    <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
     <configuration name="统计数组每个元素有多少个.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组方法/统计数组每个元素有多少个.js" working-dir="$PROJECT_DIR$/数组方法">
@@ -361,20 +374,46 @@
     <configuration name="开平方.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/开平方.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
-    <configuration name="节流实现.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS代码/节流实现.js" working-dir="$PROJECT_DIR$/JS代码">
+    <configuration name="原型链.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/原型链和继承/原型链.js" working-dir="$PROJECT_DIR$/原型链和继承">
       <method v="2" />
     </configuration>
-    <configuration name="原型输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/看输出/原型输出.js" working-dir="$PROJECT_DIR$/看输出">
+    <configuration name="箭头函数基本用法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/箭头函数/箭头函数基本用法.js" working-dir="$PROJECT_DIR$/箭头函数">
       <method v="2" />
     </configuration>
     <configuration name="判断是否存在重复元素.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/判断是否存在重复元素.js" working-dir="$PROJECT_DIR$/LeetCode">
       <method v="2" />
     </configuration>
+    <configuration name="特殊判断.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/特殊判断.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+      <method v="2" />
+    </configuration>
+    <configuration name="旋转矩阵.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/LeetCode/旋转矩阵.js" working-dir="$PROJECT_DIR$/LeetCode">
+      <method v="2" />
+    </configuration>
+    <configuration name="返回毫秒数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/字符特性/返回毫秒数.js" working-dir="$PROJECT_DIR$/字符特性">
+      <method v="2" />
+    </configuration>
+    <configuration name="杨辉三角.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/画图形/杨辉三角.js" working-dir="$PROJECT_DIR$/画图形">
+      <method v="2" />
+    </configuration>
+    <configuration name="屏幕等比例放大.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/屏幕等比例放大.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="合并有序数组.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/数组/合并有序数组.js" working-dir="$PROJECT_DIR$/数组">
+      <method v="2" />
+    </configuration>
+    <configuration name="枚举.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/枚举.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="判断数据类型.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/等价和数据类型判断/判断数据类型.js" working-dir="$PROJECT_DIR$/等价和数据类型判断">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.实现顶部出现小提示框效果.html" />
-        <item itemvalue="JavaScript Debug.loading效果.html" />
-        <item itemvalue="JavaScript Debug.CSS3D动画.html" />
+        <item itemvalue="JavaScript Debug.导航栏滑块.html" />
+        <item itemvalue="JavaScript Debug.伸缩式导航栏.html" />
+        <item itemvalue="JavaScript Debug.搜索框.html" />
+        <item itemvalue="JavaScript Debug.展开卡.html" />
+        <item itemvalue="JavaScript Debug.JS实现翻牌时钟.html" />
       </list>
     </recent_temporary>
   </component>
@@ -584,6 +623,15 @@
       <workItem from="1629449804272" duration="25000" />
       <workItem from="1629528774290" duration="267000" />
       <workItem from="1629529931657" duration="3000" />
+      <workItem from="1629635211417" duration="807000" />
+      <workItem from="1629694827899" duration="1861000" />
+      <workItem from="1629771012171" duration="4407000" />
+      <workItem from="1629785491708" duration="140000" />
+      <workItem from="1629791481509" duration="585000" />
+      <workItem from="1629891121229" duration="10536000" />
+      <workItem from="1629960630271" duration="2865000" />
+      <workItem from="1629982895712" duration="1474000" />
+      <workItem from="1630068424372" duration="3055000" />
     </task>
     <servers />
   </component>
@@ -606,22 +654,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622827042250" />
-    <state width="1894" height="127" key="GridCell.Tab.0.bottom" timestamp="1629365382080">
+    <state width="1894" height="127" key="GridCell.Tab.0.bottom" timestamp="1629775422168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629365382080" />
-    <state width="1894" height="127" key="GridCell.Tab.0.center" timestamp="1629365382079">
+    <state width="1894" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629775422168" />
+    <state width="1894" height="127" key="GridCell.Tab.0.center" timestamp="1629775422167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629365382079" />
-    <state width="1894" height="127" key="GridCell.Tab.0.left" timestamp="1629365382079">
+    <state width="1894" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629775422167" />
+    <state width="1894" height="127" key="GridCell.Tab.0.left" timestamp="1629775422167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629365382079" />
-    <state width="1894" height="127" key="GridCell.Tab.0.right" timestamp="1629365382079">
+    <state width="1894" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629775422167" />
+    <state width="1894" height="127" key="GridCell.Tab.0.right" timestamp="1629775422167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629365382079" />
+    <state width="1894" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629775422167" />
     <state width="1894" height="174" key="GridCell.Tab.1.bottom" timestamp="1628333236557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

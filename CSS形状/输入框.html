@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div {
+        position: relative;
+        display: inline-block;
+    }
+    input {
+        outline: none;
+        border: 0;
+        width: 730px;
+        height: 26px;
+        background: #fafafa;
+    }
+    input ~ span {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        background-color: #262626;
+        transform: scaleX(0);
+        transform-origin: right center;
+        transition: transform 0.45s ease-in-out;
+    }
+    input:focus ~ span {
+        transform: scaleX(1);
+        transform-origin: left center;
+    }
+</style>
+<body>
+    <div>
+        <input type="text" placeholder="请输入关键词查询">
+        <span></span>
+    </div>
+</body>
+</html>
