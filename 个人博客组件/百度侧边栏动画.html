@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    ul {
+        position: fixed;
+        left: 50%;
+        margin-left: 502px;
+        bottom: 20px;
+        border-color: red;
+    }
+    li {
+        list-style: none;
+        position: relative;
+        width: 48px;
+        height: 48px;
+        overflow: hidden;
+        border-radius: 3px;
+        background-image: url('https://images.nowcoder.com/images/20190731/9169705_1564544735056_1560BC9A9377099D4C6465F7B2794BC8?x-oss-process=image/resize,m_mfit,h_100,w_100');
+        margin-bottom: 3px;
+    }
+    li:nth-child(1) {
+        height: 92px;
+    }
+    a {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        line-height: 48px;
+        font-size: 12px;
+        background-color: tomato;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 3px;
+        transform-origin: -50% 50%;
+        transform: rotateZ(90deg);
+        transition: transform 0.3s ;
+    }
+    .report a {
+        height: 92px;
+        line-height: 92px;
+        transform-origin: -100% 50%;
+    }
+    li:hover a{
+        transform: rotateZ(0deg);
+    }
+</style>
+<body>
+<ul>
+    <li class="report">
+        <a href="#">11</a>
+    </li>
+    <li class="qr-code">
+        <a href="#">22</a>
+    </li>
+    <li class="favorited">
+        <a href="#">33</a>
+    </li>
+    <li class="search">
+        <a href="#">44</a>
+    </li>
+    <li class="feedback">
+        <a href="#">55</a>
+    </li>
+</ul>
+</body>
+</html>

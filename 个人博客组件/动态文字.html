@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<input type="button" value="跑起来" onclick="dong();">
+<input type="button" value="停止" onclick="stop();">
+<h2 id="hmsg">Hello JavaScript！</h2>
+<script type="text/javascript">
+    var msg=document.getElementById("hmsg").innerText;
+    var intervalId=null;
+    function dong(){
+        if(intervalId!=null) return;
+        // 获取到第一个字符
+        function dong1(){
+            var start=msg.substring(0,1);
+            // 获取后面的所有字符
+            var end=msg.substring(1);
+            msg=end+start;
+            document.getElementById("hmsg").innerText=msg;
+        }
+        intervalId=setInterval(dong1,400);
+    }
+    function stop(){
+        clearInterval(intervalId);  //清除定时器，并不是置为null
+        intervalId=null;
+    }
+</script>
+</body>
+</html>

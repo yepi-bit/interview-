@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    for (var m = 1; m <= 9; m++) {  //行
+        for (var n = 1; n <= m; n++) {   //列
+            document.write(n + "x" + m + "=" + n * m + "&nbsp;&nbsp;");
+            if (n * m < 10) document.write("&nbsp;&nbsp;");
+        }
+        document.write("<br>");
+    }
+</script>
+</body>
+</html>

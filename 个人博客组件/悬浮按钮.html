@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins',sans-serif;
+    }
+    body {
+        min-height: 100vh;
+        background: linear-gradient(#7d6cfc,#c635ea);
+    }
+    .action {
+        position: fixed;
+        bottom: 350px;
+        left: 550px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    }
+    .action span {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #a13dea;
+        font-size: 40px;
+        transition: 0.3s ease-in-out;
+    }
+    .action.active span {
+        color: #7d6cfc;
+        transform: rotate(135deg);
+    }
+    .action ul {
+        position: absolute;
+        border: 55px;
+        background: #fff;
+        min-width: 250px;
+        padding: 20px;
+        border-radius: 20px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .action.active ul {
+        opacity: 1;
+        bottom: 65px;
+        visibility: visible;
+        transition: 0.3s;
+    }
+    .action ul li {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 0;
+        transition: 0.3s;
+    }
+    .action ul li:hover {
+        font-weight: 600;
+    }
+    .action ul li:not(:last-child) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .action ul li i{
+        margin-right: 10px;
+        opacity: 0.2;
+    }
+    .action ul li:hover i {
+        opacity: 0.8;
+        transition: 0.1s
+    }
+</style>
+<body>
+<div class="action" onclick="actionToggle();">
+    <span>+</span>
+    <ul>
+        <li>
+            <i class="fab fa-facebook-f"></i>Share facebook
+        </li>
+        <li>
+            <i class="fab fa-twitter"></i>Share twitter
+        </li>
+        <li>
+            <i class="fab fa-google"></i>Share google
+        </li>
+        <li>
+            <i class="fab fa-youtube"></i>Share youtube
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">
+    function actionToggle() {
+        var action = document.querySelector('.action');
+        action.classList.toggle('active')
+    }
+</script>
+</body>
+
+</html>

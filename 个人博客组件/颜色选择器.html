@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="">
+    <p style="align-items: center;">选择你喜欢的颜色:
+        <input type="radio" name="oColors" id="radio1" value="red" onclick="setColor();" />
+        红
+        <input type="radio" name="oColors" id="radio2" value="green" onclick="setColor();" />
+        绿
+        <input type="radio" name="oColors" id="radio3" value="blue" onclick="setColor();" />
+        蓝
+    </p>
+</form>
+<h1 id="heading" style="align-items: center;">JavaScript动态网页编程</h1>
+</body>
+<script type="text/javascript">
+    // <!--
+    function setColor() {
+        var h3 = document.getElementById("heading");
+        if (document.getElementById("radio1").checked)
+            h3.style.color = "red";
+        else if (document.getElementById("radio2").checked)
+            h3.style.color = "green";
+        else h3.style.color = "blue";
+
+    }
+    //-->
+</script>
+</html>

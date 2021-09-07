@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font: 12px/1.5 system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Segoe UI", "Microsoft YaHei", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Arial, sans-serif;
+        word-wrap: break-word;
+        /* word-break: break-word; */
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+    }
+
+    div {
+        display: block;
+    }
+
+    .top-mod {
+        width: 450px;
+        padding: 0 17px;
+        font-size: 0;
+        margin-right: -20px;
+        background-color: blueviolet;
+    }
+
+    .top-item {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 126px;
+        height: 167px;
+        position: relative;
+        text-align: center;
+        font-size: 14px;
+        margin-right: 20px;
+        font-weight: 600;
+    }
+
+    .top-item1 {
+        height: 194px;
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+    }
+
+    a {
+        color: #333;
+    }
+
+    .top-item2 .top-item-bg {
+        background: url(https://static.nowcoder.com/images-nk/res/ranking/2.png) no-repeat;
+    }
+
+    .top-item1 .top-item-bg {
+        height: 194px;
+        background: url(//static.nowcoder.com/images-nk/res/ranking/1.png) no-repeat;
+    }
+
+    .top-item3 .top-item-bg {
+        background: url(//static.nowcoder.com/images-nk/res/ranking/3.png) no-repeat;
+    }
+
+    .top-item-bg {
+        width: 126px;
+        height: 167px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+    }
+
+    .top-item .top-pic {
+        position: absolute;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        overflow: hidden;
+        z-index: 1;
+        left: 35px;
+        top: 21px;
+    }
+
+    .top-item1 .top-pic {
+        width: 65px;
+        height: 65px;
+        left: 29px;
+        top: 25px;
+    }
+
+    .top-item3 .top-pic {
+        left: 32px;
+    }
+
+    .top-item .top-pic img {
+        width: 100%;
+    }
+
+    .top-item .top-rank-num {
+        width: 73px;
+        position: absolute;
+        left: 27px;
+        top: 67px;
+        z-index: 3;
+    }
+
+    .top-item1 .top-rank-num {
+        font-size: 18px;
+        left: 18px;
+        top: 80px;
+        width: 90px;
+    }
+
+    .top-rank-main {
+        position: absolute;
+        bottom: 0;
+        left: 8px;
+        width: 110px;
+        height: 65px;
+        z-index: 3;
+    }
+
+    .top-rank-main .name {
+        display: inline-block;
+        vertical-align: middle;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-wrap: normal;
+        max-width: 7em;
+    }
+
+
+    .identity-icon {
+        width: auto;
+        height: 14px;
+        margin-right: 2px;
+        display: inline-block;
+        vertical-align: text-top;
+    }
+
+    fieldset,
+    img {
+        border: 0;
+    }
+
+    .level-color-8 {
+        color: #f34c54 !important;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+</style>
+
+<body>
+<div class="top-mod">
+    <div class="top-item top-item2" data-card-uid="540390845" data-card-index="1">
+        <a href="/profile/540390845">
+            <div class="top-item-bg"></div>
+            <div class="top-pic"><img
+                    src="https://images.nowcoder.com/images/20210115/540390845_1610673340152/8E4BE29FB6ACE48C72EFDAEB604FFA44?x-oss-process=image/resize,m_mfit,h_100,w_100"
+                    alt=""></div>
+        </a>
+        <div class="top-rank-num">No.2</div>
+        <div class="top-rank-main">
+            <a href="/profile/540390845" class="name level-color-8" data-card-uid="540390845"
+               data-card-index="2">程序员</a>
+            <p>+4023分</p>
+        </div>
+    </div>
+    <div class="top-item top-item1" data-card-uid="9169705" data-card-index="3">
+        <a href="/profile/9169705">
+            <div class="top-item-bg"></div>
+            <div class="top-pic"><img
+                    src="https://images.nowcoder.com/images/20190731/9169705_1564544735056_1560BC9A9377099D4C6465F7B2794BC8?x-oss-process=image/resize,m_mfit,h_100,w_100"
+                    alt=""></div>
+        </a>
+        <div class="top-rank-num">No.1</div>
+        <div class="top-rank-main">
+            <a href="/profile/9169705" class="name level-color-8" data-card-uid="9169705"
+               data-card-index="4">vuturn_4399</a>
+            <p>+6429分</p>
+        </div>
+    </div>
+    <div class="top-item top-item3" data-card-uid="247382763" data-card-index="5">
+        <a href="/profile/247382763">
+            <div class="top-item-bg"></div>
+            <div class="top-pic"><img
+                    src="https://images.nowcoder.com/images/20210720/247382763_1626787590204/B1213CB26D390FB46F1AD52D2880B310?x-oss-process=image/resize,m_mfit,h_100,w_100"
+                    alt=""></div>
+        </a>
+        <div class="top-rank-num">No.3</div>
+        <div class="top-rank-main">
+            <a href="/profile/247382763" class="name level-color-7" data-card-uid="247382763"
+               data-card-index="6">美团内推</a>
+            <a href="/user/authentication" class="" target="_blank" data-title="美团_后端开发" data-tips-index="1"><img
+                    class="identity-icon" data-identity="5" src="//static.nowcoder.com/nc/image/identity/5.png"></a>
+            <p>+3549分</p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

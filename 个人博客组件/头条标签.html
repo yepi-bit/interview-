@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        /*段落中文本不换行*/
+        white-space: nowrap;
+        /*阴影*/
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+        /*设置横向滚动*/
+        overflow-x: scroll;
+        /*禁止纵向滚动*/
+        overflow-y: hidden;
+        /*文本平铺*/
+        text-align: justify;
+        /*背景颜色*/
+        background: #F4F5F6;
+        padding: 0px 5px;
+        margin-bottom: 10px;
+        /*设置边距改变效果为内缩*/
+        box-sizing: border-box;
+    }
+
+    .nav a {
+        color: #505050;
+        /*取消超链接下划线*/
+        text-decoration: none;
+        margin: auto 10px;
+    }
+    .nav a:hover {
+        background-color: lightcoral;
+    }
+
+    .nav a:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        bottom: 15px;
+        left: calc(50% - 7px);
+        width: 14px;
+        height: 4px;
+        background: #409eff;
+    }
+
+    .nav::-webkit-scrollbar {
+        /*隐藏滚动条*/
+        display: none;
+    }
+</style>
+
+<body>
+<div class="nav">
+    <a href="#">关注</a>
+    <a href="#">推荐</a>
+    <a href="#">新闻</a>
+    <a href="#">社会</a>
+    <a href="#">国际</a>
+    <a href="#">军事</a>
+    <a href="#">娱乐</a>
+    <a href="#">三农</a>
+    <a href="#">直播</a>
+    <a href="#">小视频</a>
+    <a href="#">问答</a>
+    <a href="#">体育</a>
+    <a href="#">科技</a>
+</div>
+<div>
+    正文<br>
+    正文<br>
+    正文<br>
+    正文<br>
+    正文<br>
+</div>
+</body>
+
+</html>

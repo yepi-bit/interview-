@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border: 10px dashed red;
+    }
+
+    #divs {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        line-height: 500px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    button {
+        border: 0;
+        padding: 10px 30px;
+        margin-left: 200px;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: darkorchid;
+    }
+</style>
+
+<body>
+<div class="container">
+    <div id="divs">
+        学生：
+        <span>张三</span>
+    </div>
+
+</div>
+<button class="btn">随机点名</button>
+</body>
+<script>
+    var ctr = document.getElementsByTagName('span')[0];
+    var btns = document.getElementsByClassName('btn')[0];
+    var username = ['张三', '李四', '王五', '如花', '法海', '陈咬金', '芈月', '韩信', '米莱迪', '蔡文姬', '王者荣耀'];
+    btns.onclick = function () {
+        var cut = 0;
+        var timer = setInterval(function () {
+            cut++;
+            if(cut == 10) {
+                clearInterval(timer)
+            }
+            var count = Math.round(Math.random() * 12)
+            ctr.innerText = username[count]
+            var large =  ctr.innerText
+        }, 200)
+
+    }
+</script>
+
+</html>
