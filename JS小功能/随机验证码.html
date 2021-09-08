@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<form name="form1" method="post" action="">
+    <div id="result">&nbsp;&nbsp;产生的验证码：</div>
+    <span>请输入要产生的验证码的位数：</span>
+    <input name="digit" type="text" class="wenbenkuang" id="digit" value="6" style="width: 120px; margin-bottom: 20px;">
+    (1-15)
+    <button name="Submit" type="button" class="go-wenbenkuang" onClick="deal()">生成</button>
+    <button name="Submit2" type="button" class="go-wenbenkuang" onClick="window.location.reload();">刷新</button>
+</form>
+</body>
+<script>
+    function checkCode(digit) {
+        //自动生成验证码
+        var result = "";
+        for (i = 0; i < parseInt(digit); i++) {
+            result = result + (parseInt(Math.random() * 10)).toString();
+        }
+        return result;
+    }
+    function deal() {
+        result = document.getElementById("result");
+        result.innerHTML = "&nbsp;&nbsp;产生的验证码：" + checkCode(form1.digit.value);
+    }
+</script>
+
+</html>
