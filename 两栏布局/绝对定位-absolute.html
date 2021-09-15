@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    /*使用绝对定位实现—absolute*/
+
+    .father {
+        overflow: hidden;
+        position: relative;
+    }
+    /* 脱离文档流 */
+    .left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 200px;
+        background: purple;
+    }
+
+    .right {
+        margin-left: 200px;
+        background: skyblue;
+        height: 300px;
+    }
+</style>
+<body>
+<div class="father">
+    <div class="left">
+        左侧固定内容
+    </div>
+    <div class="right">
+        右侧内容自适应
+    </div>
+</div>
+</body>
+</html>

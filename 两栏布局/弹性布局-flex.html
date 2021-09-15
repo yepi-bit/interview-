@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="father">
+    <div class="left">
+        左侧固定内容
+    </div>
+    <div class="right">
+        右侧内容自适应
+    </div>
+</div>
+</body>
+<style>
+    /*使用弹性布局—flex*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .father {
+        display: flex;
+    }
+    .left {
+        height: 200px;
+        background: purple;
+        flex:0 0 200px
+    }
+    .right {
+        background: skyblue;
+        height: 300px;
+        flex: 1;
+    }
+</style>
+</html>
