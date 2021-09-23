@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="text">
+    <button>点击它</button>
+    <br />
+    <span>你想要的：</span>
+    <div></div>
+</body>
+<script>
+    var input = document.querySelector('input');
+    var button = document.querySelector('button');
+    var div = document.querySelector('div')
+    button.onclick = function () {
+        var str = input.value.trim();
+        if (str === '') {
+            alert('请输入关键字');
+        }
+        else {
+            div.innerHTML = str;
+            input.value = ''
+        }
+    }
+</script>
+</html>

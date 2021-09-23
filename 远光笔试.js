@@ -26,3 +26,9 @@
 // }
 // var a = test()
 // console.log(a);
+
+var a = [1,2,3,4];
+a = a.forEach((item)=>{
+    item = 2;
+});
+console.log(a);

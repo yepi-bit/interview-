@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <style media="screen" type="text/css">
+        #appLoading {
+            width: 100%;
+            height: 100%;
+        }
+
+        #appLoading span {
+            position: absolute;
+            display: block;
+            font-size: 50px;
+            line-height: 50px;
+            top: 50%;
+            left: 50%;
+            width: 200px;
+            height: 100px;
+            -webkit-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+<div id="appLoading">
+    <span>Loading...</span>
+</div>
+<div id="app" style="display: none">
+    <el-dialog title="提示" width="50%" :visible.sync="startUsingDialog" v-dialog_drag>
+        <span> 您是否确定启用次记录?</span>
+        <span slot="footer" class="dialog-footer">
+            <el-button @click="startUsingSubmit()" type="danger" :loading="startUsingLoading">启用</el-button>
+            <el-button @click="startUsingDiglog=false">取消</el-button>
+        </span>
+    </el-dialog>
+
+
+</div>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<!-- import jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+
+
+    $(function () {
+        $("body").on("mousedown", '.el-message-box__header', (e) => {
+            const dialogHeaderEl = document.querySelector('.el-message-box__header');
+            const dragDom = document.querySelector('.el-message-box');
+            dialogHeaderEl.style.cursor = 'move';
+            // 获取原有属性 ie dom元素.currentStyle 火狐谷歌 window.getComputedStyle(dom元素, null);
+            const sty = dragDom.currentStyle || window.getComputedStyle(dragDom, null);
+            // 鼠标按下，计算当前元素距离可视区的距离
+            const disX = e.clientX - dialogHeaderEl.offsetLeft;
+            const disY = e.clientY - dialogHeaderEl.offsetTop;
+            // 获取到的值带px 正则匹配替换
+            let styL, styT;
+            // 注意在ie中 第一次获取到的值为组件自带50% 移动之后赋值为px
+            if (sty.left.includes('%')) {
+                styL = +document.body.clientWidth * (+sty.left.replace(/\%/g, '') / 100);
+                styT = +document.body.clientHeight * (+sty.top.replace(/\%/g, '') / 100)
+            } else {
+                let lefts = sty.left;
+                let tops = sty.top
+                if (sty.left === 'auto') {
+                    lefts = '0px'
+                }
+                if (sty.top === 'auto') {
+                    tops = '0px'
+                }
+                styL = +lefts.replace(/\px/g, '');
+                styT = +tops.replace(/\px/g, '')
+            }
+
+            document.onmousemove = function (e) {
+                // 通过事件委托，计算移动的距离
+                const l = e.clientX - disX;
+                const t = e.clientY - disY;
+
+                // 移动当前元素
+                dragDom.style.left = `${l + styL}px`;
+                dragDom.style.top = `${t + styT}px`;
+                dragDom.style.position = `absolute`
+
+                // 将此时的位置传出去
+                // binding.value({x:e.pageX,y:e.pageY})
+            }
+
+            document.onmouseup = function (e) {
+                document.onmousemove = null;
+                document.onmouseup = null
+            }
+
+        })
+    })
+
+    Vue.directive('dialog_drag', {
+        bind(el, binding, vnode, oldVnode) {
+            const dialogHeaderEl = el.querySelector('.el-dialog__header');
+            const dragDom = el.querySelector('.el-dialog');
+            dialogHeaderEl.style.cursor = 'move';
+
+            // 获取原有属性 ie dom元素.currentStyle 火狐谷歌 window.getComputedStyle(dom元素, null);
+            const sty = dragDom.currentStyle || window.getComputedStyle(dragDom, null);
+
+            dialogHeaderEl.onmousedown = (e) => {
+                console.log(1);
+                // 鼠标按下，计算当前元素距离可视区的距离
+                const disX = e.clientX - dialogHeaderEl.offsetLeft;
+                const disY = e.clientY - dialogHeaderEl.offsetTop;
+
+                // 获取到的值带px 正则匹配替换
+                let styL, styT;
+                // 注意在ie中 第一次获取到的值为组件自带50% 移动之后赋值为px
+                if (sty.left.includes('%')) {
+                    styL = +document.body.clientWidth * (+sty.left.replace(/\%/g, '') / 100);
+                    styT = +document.body.clientHeight * (+sty.top.replace(/\%/g, '') / 100)
+                } else {
+                    let lefts = sty.left;
+                    let tops = sty.top;
+                    if (sty.left === 'auto') {
+                        lefts = '0px'
+                    }
+                    if (sty.top === 'auto') {
+                        tops = '0px'
+                    }
+                    styL = +lefts.replace(/\px/g, '');
+                    styT = +tops.replace(/\px/g, '')
+                }
+
+                document.onmousemove = function (e) {
+                    // 通过事件委托，计算移动的距离
+                    const l = e.clientX - disX;
+                    const t = e.clientY - disY;
+
+                    // 移动当前元素
+                    dragDom.style.left = `${l + styL}px`;
+                    dragDom.style.top = `${t + styT}px`
+
+                    // 将此时的位置传出去
+                    // binding.value({x:e.pageX,y:e.pageY})
+                }
+
+                document.onmouseup = function (e) {
+                    document.onmousemove = null;
+                    document.onmouseup = null
+                }
+            }
+        }
+    })
+
+    new Vue({
+        el: '#app',
+        data: function () {
+            return {
+                startUsingDialog: true,
+                startUsingLoading: false,
+            }
+        },
+
+        //页面加载成功时完成
+        mounted() {
+            document.getElementById('app').style.display = 'block';
+            document.getElementById('appLoading').style.display = 'none';
+        },
+        //方法
+        methods: {
+            startUsingSubmit() {
+                this.startUsingLoading = true;
+                this.$confirm("提示", "你好!", {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消'
+                }).then(()=>{
+                    this.startUsingLoading=false
+                });
+                this.$message({
+                    showClose: true,
+                    message: '这是一条消息提示',
+                    duration: 0  //表示显示几秒, 0 表示不消失
+                });
+            }
+        },
+    })
+</script>
+</body>
+</html>
