@@ -1,0 +1,64 @@
+<!-- // 函数节流
+function throttle(func, time) {
+  let timer = null;
+
+  return function (...args) {
+    if (!timer) {
+      timer = setTimeout(() => {
+        func.apply(this, args);
+         // 注意要将 timer 主动设置成 null
+         // 如果使用 clearTimerout(timer) 虽然会将定时器清除，但是 timer依然有值
+         timer = null;
+      }, time)
+    }
+  }
+} -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>15</title>
+    <style>
+        #container {
+            width: 300px;
+            height: 300px;
+            background-color: #42b983;
+        }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+</body>
+<script>
+    // 函数节流
+    function throttle(func, time) {
+        let timer = null;
+
+        return function (...args) {
+            console.log("timer:", timer);
+
+            if (!timer) {
+                timer = setTimeout(() => {
+                    func.apply(this, args);
+                    timer = null;
+                }, time)
+            }
+        }
+    }
+
+    // 这个函数是真正想要执行的，但是不想在每次事件被触发的时候都被执行，而是每隔一段时间执行一次
+    function action(e, str) {
+        console.log(e, str);
+    }
+
+    // 之后就使用新生成的 test 函数
+    let test = throttle(action, 1000);
+
+    let div = document.getElementById('container');
+    div.addEventListener('mousemove', function (e) {
+        test(e, '我是参数');
+    })
+</script>
+</html>

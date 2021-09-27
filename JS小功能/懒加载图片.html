@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #view {
+        width: 300px;
+        height: 500px;
+        margin: 30px auto;
+        overflow-y: auto;
+    }
+
+    .parent {
+        height: 1000px;
+    }
+
+    img {
+        margin-top: 800px;
+    }
+</style>
+
+<body>
+<div id="view">
+    <div class="parent">
+        <img alt="..." loading="lazy" class="img"
+             data-src="https://tse1-mm.cn.bing.net/th?id=OIP-C.FaG6dzohGs3q45-DwsEyQQHaEK&w=165&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+    </div>
+</div>
+
+</body>
+<script>
+    let img = document.getElementsByClassName('img')[0];
+    let view = document.getElementById('view');
+    // 防抖
+    function debounce(fn, wait = 1000, immediate = false) {
+        const self = this
+        immediate && fn.call(this)
+        return function () {
+            self.debounceTime && clearTimeout(self.debounceTime)
+            self.debounceTime = setTimeout(() => {
+                fn.apply(this, arguments)
+            }, wait)
+        }
+    }
+
+    view.onscroll = debounce(function () {
+        let sh = view.clientHeight;
+        let st = view.scrollTop;
+        let ch = img.offsetTop;
+        ch - st < sh && (img.src = img.dataset.src)
+    })
+</script>
+
+</html>

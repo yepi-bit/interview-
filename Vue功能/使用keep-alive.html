@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        .article {
+            display: flex;
+        }
+
+        .left {
+            width: 100px;
+            border: 1px solid red;
+        }
+
+        .right {
+            width: 200px;
+            border: 1px solid blue;
+        }
+
+        li {
+            cursor: pointer;
+        }
+
+        .selected {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <button @click="changeView('comA')">文章</button>
+    <button @click="changeView('comB')">我的</button>
+    <keep-alive>
+        <componet :is="currentView"></componet>
+    </keep-alive>
+</div>
+
+<template id="cpn1">
+    <div class="article">
+        <div class="left">
+            <ul>
+                <li v-for="(item,index) in articles" @click="articleClick(index)"
+                    :class="{selected:currentIndex === index}">{{item.name}}
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            {{content}}
+        </div>
+    </div>
+</template>
+
+<template id="cpn2">
+    <div>
+        <h2>我的界面</h2>
+    </div>
+</template>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+
+    let comA = {
+        template: '#cpn1',
+        data() {
+            return {
+                articles: [
+                    {name: '文章1', content: '内容1'},
+                    {name: '文章2', content: '内容2'},
+                    {name: '文章3', content: '内容3'}
+                ],
+                currentIndex: '',
+                content: '请选择一篇文章'
+            }
+        },
+        created() {
+            console.log('文章组件被创建');
+        },
+        destroyed() {
+            console.log('文章组件被销毁');
+        },
+        methods: {
+            articleClick(index) {
+                this.content = this.articles[index].content;
+                this.currentIndex = index;
+            }
+        }
+    }
+
+    let comB = {
+        template: '#cpn2'
+    }
+
+    let vm = new Vue({
+        el: "#app",
+        data: {
+            currentView: 'comA'
+        },
+        components: {
+            comA,
+            comB
+        },
+        methods: {
+            changeView(component) {
+                this.currentView = component;
+            }
+        }
+    });
+</script>
+</body>
+</html>

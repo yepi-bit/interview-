@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ajax上传图片</title>
+</head>
+
+<body>
+<form id="myForm">
+    <input type="file" id="fileInput" name="file">
+    <button id="uploadBtn" type="button">上传</button>
+</form>
+
+<div>
+    <!-- 预览图片 -->
+    <img src="" id="previewImg" width="200px">
+</div>
+
+<script>
+    let myForm = document.getElementById('myForm');
+    let fileInput = document.getElementById('fileInput');
+    let previewImg = document.getElementById('previewImg');
+    let uploadBtn = document.getElementById('uploadBtn');
+
+    let file;
+    fileInput.addEventListener('change', function () {
+        file = this.files[0];
+        previewImg.src = URL.createObjectURL(file);
+    });
+
+    let xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.status === 200 && xhr.readyState === 4) {
+            let result = JSON.parse(xhr.responseText);
+            console.log(result);
+
+            let a = document.createElement('a');
+            a.href = result.data.url;
+            a.innerText = file.name;
+            document.body.appendChild(a);
+        }
+    };
+
+    uploadBtn.addEventListener('click', function () {
+        let formData = new FormData(myForm);
+        formData.append('image', fileInput.files[0], fileInput.files[0].name);
+
+        // 别人的博客
+        xhr.open("post", "https://image.kieng.cn/upload.html?type=tt");
+        xhr.send(formData); // 注意这里
+    })
+</script>
+</body>
+
+</html>

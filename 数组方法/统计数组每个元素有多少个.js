@@ -8,7 +8,7 @@ console.log(expectNumber([1,2,3,3,2,4,5,'哈哈']));
 var arr = [1,1,1,2,2,3];
 function getWordCnt(){
     var obj = {};
-    for(var i= 0, l = arr.length; i< l; i++){
+    for(var i= 0, l = arr.length; i < l; i++){
         var item = arr[i];
         obj[item] = (obj[item] +1 ) || 1;
     }
@@ -27,3 +27,10 @@ function getWordCnt1(){
     },{});
 }
 console.log(getWordCnt1());
+
+// 方法3
+const d = {};
+let ary = ['赵', '钱', '孙', '孙', '李', '周', '李', '周', '李'];
+ary.forEach(k => !d[k] ? d[k] = 1 : d[k]++);
+const max = Object.keys(d).sort((a, b) => d[b] - d[a])[0];
+console.log(max)

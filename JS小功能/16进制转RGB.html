@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box {
+        display: inline-block;
+        padding: 20px;
+        border: 2px solid black;
+    }
+
+    input {
+        height: 24px;
+    }
+
+    button {
+        margin-left: 10px;
+    }
+
+    .rgb {
+        margin-top: 16px;
+    }
+</style>
+
+<body>
+<div>
+    <div id="box">
+        <span>16进制：<input type="text" value="#" class="start"></span>
+        <button class="confirm">确定</button>
+        <button class="reset">重置</button>
+        <div class="rgb">RGB值：</div>
+        <div class="hsl">HSL值: 颜色转换器</div>
+    </div>
+</div>
+<script>
+    var confirm = document.querySelector('.confirm');
+    var reset = document.querySelector('.reset');
+    var start = document.querySelector('.start');
+    var rgb = document.querySelector('.rgb');
+    var hsl = document.querySelector('.hsl');
+
+    confirm.addEventListener('click', function (value) {
+        // console.log(start.value)
+        var str = sixteenToRgb(start.value)
+        rgb.innerHTML = "RGB值：" + str
+        hsl.innerHTML = "HSL值：" + rgbToHsl(str)
+        rgb.style.color = 'red'
+    })
+
+    reset.addEventListener('click', function (value) {
+        start.value = ''
+        // rgb.innerHTML = ''
+    })
+
+    function sixteenToRgb(str) {
+        var r, g, b, rgb;
+        if (str.length == 7) {
+            r = parseInt(str.substr(1, 2), 16);
+            g = parseInt(str.substr(3, 2), 16);
+            b = parseInt(str.substr(5, 2), 16);
+        } else if (str.length == 4) {
+            r = parseInt('' + str.substr(1, 1) + str.substr(1, 1), 16);
+            g = parseInt('' + str.substr(2, 1) + str.substr(2, 1), 16);
+            b = parseInt('' + str.substr(3, 1) + str.substr(3, 1), 16);
+        } else {
+            return 'false'
+        }
+        rgb = 'rgb(' + r + ',' + g + ',' + b + ')';
+        return rgb;
+    }
+    function rgbToHsl(str) {
+        var r, g, b;
+        if (/^rgb\((\d+)\,(\d+)\,(\d+)\)$/.test(str)) {
+            if (RegExp.$1 >= 0 && RegExp.$1 <= 255 && RegExp.$2 >= 0 && RegExp.$2 <= 255 && RegExp.$3 >= 0 && RegExp.$3 <= 255) {
+                r = RegExp.$1 / 255, g = RegExp.$2 / 255, b = RegExp.$3 / 255;
+                var max = Math.max(r, g, b), min = Math.min(r, g, b);
+                var h, s, l = (max + min) / 2;
+
+                if (max == min) {
+                    h = s = 0; // achromatic
+                } else {
+                    var d = max - min;
+                    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+                    switch (max) {
+                        case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+                        case g: h = (b - r) / d + 2; break;
+                        case b: h = (r - g) / d + 4; break;
+                    }
+                    h /= 6;
+                }
+                return 'hsl(' + Math.round(h * 360) + ',' + Math.round(s * 100) + '%,' + Math.round(l * 100) + '%)';
+            } else {
+                return 'false';
+            }
+        } else {
+            return 'false';
+        }
+    }
+</script>
+</body>
+
+</html>

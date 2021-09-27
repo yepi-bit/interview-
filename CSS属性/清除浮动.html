@@ -1,31 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>清除浮动</title>
+    <style>
+        .div1 {
+            width: 150px;
+            border: 1px solid red;
+
+            /* 方法4：给父元素单独定义高度*/
+            /* height: 200px; */
+
+            /*方法3：使用BFC来清除浮动*/
+            overflow: hidden;
+            /*overflow: scroll;*/
+            /*overflow: auto;*/
+            /*display: flex;*/
+            /*display: inline-flex; */
+            /*display: inline-block;*/
+            /*display: table-cell;*/
+            /*position: absolute;*/
+            /*position: fixed;*/
+
+        }
+
+        .son1,
+        .son2 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            float: left;
+        }
+
+        .son2 {
+            background-color: greenyellow;
+        }
+
+        /*清除浮动方法2，给父元素添加clearfix的class */
+        /* .clearfix:after {
+            content: "";
+            display: block;
+            clear: both;
+        } */
+    </style>
 </head>
+
 <body>
-    <div class="parent">
-        <div class="child"></div>
-<!--  添加新元素      -->
-        <div style="clear: both"></div>
-    </div>
+<div class="div1">
+    <div class="son1">a</div>
+    <div class="son2">b</div>
+
+    <!-- 清除浮动方法1 -->
+    <!-- <div style="clear: both"></div> -->
+</div>
 </body>
-<style>
-    .parent {
-        width: 400px;
-        border: 5px solid salmon;
-        background: #2196f3;
-        overflow: hidden;
-        /* float: left; */
-        /* position: absolute; */
-        /* display: inline-block */
-        /* 以上属性均可触发BFC */
-    }
-    .child {
-        width: 300px;
-        height: 200px;
-        background: #663366;
-    }
-</style>
+
 </html>

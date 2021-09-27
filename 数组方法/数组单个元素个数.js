@@ -1,4 +1,4 @@
-// 方法1 filter
+// 方法1 filter 单个元素的个数
 function count(arr, item) {
     var count = arr.filter(function (a) {
         return a === item;

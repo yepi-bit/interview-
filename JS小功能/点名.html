@@ -52,11 +52,11 @@
         var cut = 0;
         var timer = setInterval(function () {
             cut++;
-            if(cut == 10) {
+            if(cut === 10) {
                 clearInterval(timer)
             }
-            var count = Math.round(Math.random() * 12)
-            ctr.innerText = username[count]
+            var count = Math.round(Math.random() * 12);
+            ctr.innerText = username[count];
             var large =  ctr.innerText
         }, 200)
 

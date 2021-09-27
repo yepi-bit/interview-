@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aixos</title>
+</head>
+<body>
+<form id="myForm">
+    <input type="file" id="fileInput" name="file">
+    <button id="uploadBtn" type="button">上传</button>
+</form>
+
+<div>
+    <!-- 预览图片 -->
+    <img src="" id="previewImg" width="200px">
+</div>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.js"></script>
+<script>
+    let myForm = document.getElementById('myForm');
+    let fileInput = document.getElementById('fileInput');
+    let previewImg = document.getElementById('previewImg');
+    let uploadBtn = document.getElementById('uploadBtn');
+
+    fileInput.addEventListener('change', function () {
+        let file = this.files[0];
+        previewImg.src = URL.createObjectURL(file);
+    });
+
+    uploadBtn.addEventListener('click', function () {
+        let formData = new FormData(myForm);
+        let file = fileInput.files[0];
+
+        // 注意这里要将key命名为image，因为接口里边用的就是image这个名字
+        formData.append('image',file, file.name);
+
+        // 这里是重点
+        axios({
+
+            // 别人的博客地址
+            url: "https://image.kieng.cn/upload.html?type=tt",
+            method:"post",
+            data: formData
+        }).then(res => {
+            console.log(res);
+            let a = document.createElement('a');
+            a.href = res.data.data.url;
+            a.innerText = file.name;
+            document.body.appendChild(a);
+        })
+    })
+</script>
+</body>
+</html>
