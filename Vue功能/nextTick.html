@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+<div id="app">
+    {{message}}
+    <div id="div" v-if="isShow">我是一段内容</div>
+    <button @click="getText">获取div中的内容</button>
+</div>
+
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            isShow: false,
+            message: 'Hello'
+        },
+        methods: {
+            getText() {
+                this.isShow = true;
+                //   let text = document.getElementById('div').textContent;
+                //   console.log(text);
+                // 改为
+                this.$nextTick(function () {
+                    let text = document.getElementById('div')
+                    console.log(text);
+                })
+            }
+        }
+    });
+</script>
+</body>
+
+</html>

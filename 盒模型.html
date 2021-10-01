@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .box {
+        box-sizing: border-box;
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        border: 2px solid red;
+        background-color: #2196f3;
+    }
+    .box2 {
+        box-sizing: content-box;
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        border: 2px solid red;
+        background-color: #2196f3;
+    }
+</style>
+<body>
+    <div class="box">我是IE盒模型</div>
+    <span>1</span>
+    <div class="box2">我是标准盒模型</div>
+</body>
+</html>
