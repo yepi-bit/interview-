@@ -5,7 +5,7 @@ function Father() {
     this.show = function() {
         console.log("帅");
     }
-};
+}
 
 // 在父类的原型上添加方法
 Father.prototype.callback = function() {

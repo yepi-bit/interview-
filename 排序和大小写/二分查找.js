@@ -4,7 +4,7 @@ function binary_search(arr, target) {
         high = arr.length - 1;
     while(low <= high){
         var mid = low + ((high - low ) >> 1); // 或者 parseInt((high + low) / 2);  low +（high - low）/ 2
-        if(target == arr[mid]){
+        if(target === arr[mid]){
             return  mid;
         }else if(target > arr[mid]){
             low = mid + 1;

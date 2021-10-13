@@ -3,7 +3,7 @@ function Father(name) {
     this.name = name;
     this.arr = [1];
     this.show = function() {
-        console.log("shuai");
+        console.log("帅");
     }
 }
 Father.prototype.call = function() {
@@ -21,6 +21,7 @@ son1.arr.push(2); // 向son1的数组中添加一个数
 
 console.log(son1);
 console.log(son2);
+
 // 这时son实例的prototype的原型是object
 console.log(son1.show === son2.show); // false
 // 重点：
@@ -33,6 +34,7 @@ console.log(son1.show === son2.show); // false
 // 解决了原型链继承的缺点
 // 可以继承多个构造函数的属性（利用call()）
 // 在子实例中可向父实例传参。
+
 // 缺点：
 //
 // 只能继承父类构造函数的属性

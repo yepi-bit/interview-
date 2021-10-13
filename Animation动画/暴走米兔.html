@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>米兔</title>
+    <style>
+        .mitu {
+            width: 132px;
+            height: 271px;
+            margin: 100px auto;
+            background-image: url("https://gitee.com/Liwker/picture/raw/master/img/20210106145912.png");
+            background-position: 0 0;
+
+            animation-name: move;
+            animation-play-state: running;
+            /* 一个周期为 0.6s */
+            animation-duration: 0.6s;
+            /* 每3(n-1)步为一个周，但这里是移动的整张图，所以就是 n */
+            animation-timing-function: steps(4 ,end);
+            /* 动画执行无数次 */
+            animation-iteration-count: infinite;
+            /* 默认不开启动画 */
+            /*animation-play-state: paused;*/
+        }
+        /*.mitu:hover {*/
+        /*    !* hover时 执行动画 *!*/
+        /*    animation-play-state: running;*/
+        /*}*/
+        @keyframes move {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                /* 移动整张图片 */
+                background-position: -528px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="mitu"></div>
+</body>
+</html>

@@ -10,7 +10,7 @@
             border: 1px solid red;
 
             /* 方法4：给父元素单独定义高度*/
-            /* height: 200px; */
+            /* height: 200px;*/
 
             /*方法3：使用BFC来清除浮动*/
             overflow: hidden;
@@ -38,21 +38,21 @@
         }
 
         /*清除浮动方法2，给父元素添加clearfix的class */
-        /* .clearfix:after {
-            content: "";
-            display: block;
-            clear: both;
-        } */
+        /*.clearfix:after {*/
+        /*    content: "";*/
+        /*    display: block;*/
+        /*    clear: both;*/
+        /*}*/
     </style>
 </head>
 
 <body>
-<div class="div1">
+<div class="div1" >
     <div class="son1">a</div>
     <div class="son2">b</div>
 
     <!-- 清除浮动方法1 -->
-    <!-- <div style="clear: both"></div> -->
+<!--     <div style="clear: both"></div>-->
 </div>
 </body>
 

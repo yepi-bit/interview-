@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>平移</title>
+</head>
+<style>
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: #bfa;
+        animation: test 2s infinite 1s alternate-reverse both;
+        /* 执行test动画，一次2s完成，infinite，延迟1s开始，反向交替执行，延迟等待元素处于 动画开始，动画结束后停留在 动画结束的状态 */
+    }
+    @keyframes test {
+        from{
+            margin-left: 0;
+            background-color: orange;
+        }
+
+        to{
+            background-color: red;
+            margin-left: 700px;
+        }
+    }
+</style>
+<body>
+    <div class="box"></div>
+</body>
+</html>

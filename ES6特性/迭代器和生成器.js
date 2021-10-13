@@ -1,3 +1,4 @@
+// 迭代器
 var arr = [111,222];
 var isArr = arr[Symbol.iterator]();
 
@@ -18,6 +19,8 @@ console.log( it.next(12) );
 console.log( it.next(13) );
 
 
+
+// 生成器
 function* helloWorld() {
     yield 'hello';
     yield 'world';

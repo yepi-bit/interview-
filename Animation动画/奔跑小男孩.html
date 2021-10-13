@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>runboy</title>
+    <style>
+        .runboy {
+            width: 256px;
+            height: 256px;
+            margin: 50px auto;
+            background-image: url("https://gitee.com/Liwker/picture/raw/master/img/20210106165812.png");
+            background-position: 0 0;
+
+            animation: run 0.7s steps(6) infinite running;
+        }
+        /*.runboy:hover {*/
+        /*    !* 这里一定要用全称，因为简写里有默认值，会覆盖原设置 *!*/
+        /*    animation-play-state: running;*/
+        /*}*/
+        @keyframes run {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: -1536px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="runboy"></div>
+</body>
+</html>

@@ -10,7 +10,7 @@ function getWordCnt(){
     var obj = {};
     for(var i= 0, l = arr.length; i < l; i++){
         var item = arr[i];
-        obj[item] = (obj[item] +1 ) || 1;
+        obj[item] = (obj[item] + 1 ) || 1;
     }
     return obj;
 }
@@ -27,6 +27,7 @@ function getWordCnt1(){
     },{});
 }
 console.log(getWordCnt1());
+
 
 // 方法3
 const d = {};
