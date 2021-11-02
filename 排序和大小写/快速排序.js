@@ -1,7 +1,7 @@
 function quicksort(arr) {
     if (arr.length <= 1)
         return arr;
-    let arrLength = arr.length >> 1;
+    let arrLength = arr.length >> 1;  // arrLength取 3 2 1
     let first = arr.splice(arrLength, 1)[0];
     let left = [];
     let right = [];
